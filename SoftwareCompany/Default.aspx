@@ -38,15 +38,15 @@
         <!-- ======= Header ======= -->
         <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/628aa0547b967b117990ac49/1g3mo4ip0';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+    var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+    (function () {
+        var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = 'https://embed.tawk.to/628aa0547b967b117990ac49/1g3mo4ip0';
+        s1.charset = 'UTF-8';
+        s1.setAttribute('crossorigin', '*');
+        s0.parentNode.insertBefore(s1, s0);
+    })();
 </script>
 <!--End of Tawk.to Script-->
   <header id="header" class="fixed-top d-flex align-items-center">
@@ -194,7 +194,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="932" data-purecounter-duration="1" class="purecounter"></span>
+             <span data-purecounter-start="0" data-purecounter-end="932" data-purecounter-duration="1" class="purecounter"></span>
             <p>DAILY VISITS</p>
           </div>
                 
@@ -788,7 +788,8 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
               <p>Magnam dolores commodi suscipit uisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
             </div>
           </div>
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+        
+            <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
 
             <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
               <div class="swiper-wrapper">
@@ -797,7 +798,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                   <div class="testimonial-item">
                     <p>
                       <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.    
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
                     <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
@@ -989,8 +990,65 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                   <h4>Call:</h4>
                   <p>+1 5589 55488 55s</p>
                 </div>
+
               </div>
             </div>
+     
+              <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="section-title" data-aos="fade-right">
+              <h2>FEEL FREE TO CONTACT US</h2>
+              <%--<p>Magnam dolores commodi suscipit uisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>--%>
+            </div>
+          </div>
+        
+            <div class="col-lg-15" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <p>
+                      <%--<i class="bx bxs-qu"></i>--%>
+                    <img src="assets/img/clients/phone.png" class="testimonial-img" alt="">
+                        <br />
+                        Call Professional Consultants
+                        You can call our professional consultants anytime, we're available around the clock for you assistance.    
+                      <%--<i class="bx bxs-quote-alt-right quote-icon-right"></i>--%>
+                    </p>
+                    <%--<img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">--%>
+                    <h3>CALL US : +19159969739</h3>
+                  </div>
+                </div><!-- End testimonial item -->
+
+                <div class="swiper-slide">
+                  <div class="testimonial-item">
+                    <p>
+                          <img src="assets/img/clients/chat.png" class="testimonial-img" alt="">
+                        <br />
+                      <%--<i class="bx bxs-quote-alt-left quote-icon-left"></i>--%>
+                      We're also available on live chat service 24/7! Just ping us and we'll take care of it all.
+                      <%--<i class="bx bxs-quote-alt-right quote-icon-right"></i>--%>
+                    </p>
+                    <%--<img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">--%>
+                    <h3>TALK WITH US </h3>
+                    
+                  </div>
+                </div><!-- End testimonial item -->
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
               <div class="row">
