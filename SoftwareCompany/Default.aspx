@@ -28,7 +28,7 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!-- Template Main CSS File -->       
   <link href="assets/css/style.css" rel="stylesheet">
 
  
@@ -36,12 +36,26 @@
 <body>
     <form id="form1" runat="server">
         <!-- ======= Header ======= -->
+        <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/628aa0547b967b117990ac49/1g3mo4ip0';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container">
       <div class="header-container d-flex align-items-center justify-content-between">
         <div class="logo">
           <%--<h1 class="text-light"><a href="Default.aspx"><span>DOT CONNECT</span></a></h1>--%>
-            <h1 class="text-light"><a href="default.aspx"><span>DOT CONNECT</span></a></h1>
+                <%--<img src="assets/img/clients/client-6.png" class="img-fluid" alt="Responsive image"/><a href="default.aspx"></a></>--%>
+            <h1 class="text-light"><class="img-fluid" alt="Responsive image"><a href="default.aspx"><span>DOT CONNECT</span></a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
           <%--<a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>--%>
         </div>
@@ -53,7 +67,7 @@
             <li><a class="nav-link scrollto" href="#services">Services</a></li>
             <li><a class="nav-link scrollto " href="Portfolio.aspx">Portfolio</a></li>
             <%--<li><a class="nav-link scrollto" href="#team">Team</a></li>--%>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <li><a class="nav-link scrollto" href="#Contact">Contact</a></li>
             <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
           
                    <i class="bi bi-list mobile-nav-toggle"></i>
@@ -103,19 +117,19 @@
         <div class="row">
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
-            <img src="assets/img/clients/clients-2.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="200">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="300">
             <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="200">
             <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="300">
+            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="400">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
           </div>
 
           <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="500">
@@ -264,32 +278,19 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
             <div class="section-title" data-aos="fade-right">
               <h2>Services</h2>
               <p>We have a Professional Website Development Team who work smart and fast with the latest technologies, which will not only deliver Creative Graphic Design Services but your projects will be delivered to you on time as well. Our rates are affordable for the creative graphic design services that we are providing. We guaranty your prom delivery.</p>
+            
             </div>
-          </div>
-
-
-            <%-- new add --%> 
-        <section id="Creativity" class="creativity section-bg">
-       <div class="container">
-
-        <div class="row">
-       <div class="col-lg-4">
-        <div class="section-title" data-aos="fade-right">
-        <h2>HERE CREATIVITY MEETS TECHNOLOGY</h2>
-        <p>DOT CONNECT is the Digital Design Company in USA that is fulfilling all your web needs as we are delivering the Best SEO Services, Web Design Services USA, Video Animation Services, interactive advertising, marketing support, and a lot more. We treat your business as our own so whatever services you are looking for, just feel free to reach out to us. Furthermore, we bring life to your creative imaginations with our years of experience in the field by providing an extensive range of Digital Design Services in USA. Our competence is not restricted to logo designing. Here we empower businesses, brands, or organizations to generate lead through both organic and paid marketing strategies.Logo Designing | Wesite Development | Video Animation | Search Engine Optimization | Social Media Marketing
-
-
-
-
-
-
+              <div class="section-title" data-aos="fade-right">
+                    <h2>HERE CREATIVITY MEETS TECHNOLOGY</h2>
+                          <p>DOT CONNECT is the Digital Design Company in USA that is fulfilling all your web needs as we are delivering the Best SEO Services, Web Design Services USA, Video Animation Services, interactive advertising, marketing support, and a lot more. We treat your business as our own so whatever services you are looking for, just feel free to reach out to us. Furthermore, we bring life to your creative imaginations with our years of experience in the field by providing an extensive range of Digital Design Services in USA. Our competence is not restricted to logo designing. Here we empower businesses, brands, or organizations to generate lead through both organic and paid marketing strategies.Logo Designing | Wesite Development | Video Animation | Search Engine Optimization | Social Media Marketing
 </p>
-            </div>
+
+              </div>
           </div>
 
-            <%-- end of ... --%>
 
 
+            
 
 
           <div class="col-lg-8">
@@ -332,10 +333,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
 
       </div>
     </section><!-- End Services Section -->
-
-
-
-
+    
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
       <div class="container">
@@ -611,7 +609,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <li class="na">3 Revisions</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
               </div>
             </div>
           </div>
@@ -628,7 +626,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <li class="na">2 Stock Photos (You can provide us more)</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
               </div>
             </div>
           </div>
@@ -645,7 +643,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <li>Hover Effects</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
               </div>
             </div>
           </div>
@@ -674,7 +672,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <li class="na">Voice Over & Sound Effects</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
               </div>
             </div>
           </div>
@@ -691,7 +689,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <li class="na">Voice Over & Sound Effects</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
               </div>
             </div>
           </div>
@@ -708,7 +706,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <li>Voice Over & Sound Effects 5 weeks Delivery</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
               </div>
             </div>
           </div>
@@ -736,7 +734,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <li class="na">Massa ultricies mi</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
               </div>
             </div>
           </div>
@@ -753,7 +751,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <li class="na">Massa ultricies mi</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
               </div>
             </div>
           </div>
@@ -770,7 +768,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <li>Massa ultricies mi</li>
               </ul>
               <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
+                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
               </div>
             </div>
           </div>
@@ -1045,32 +1043,33 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="nav-link scrollto"></i> <a href="#Default.aspx">Home</a></li>
+              <li><i class="nav-link scrollto"></i>   <a href="#Default.aspx">About us</a></li>
+              <li><i class="nav-link scrollto"></i>  <a href="#services">Services</a></li>
+              <li><i class="nav-link scrollto"></i>  <a href="#Portfolio.aspx">Portfolio</a></li>
+             
             </ul>
           </div>
 
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i>Web Development</li>
+              <li><i class="bx bx-chevron-right"></i>Application Development</li>
+              <li><i class="bx bx-chevron-right"></i>Marketing</li>
+              <li><i class="bx bx-chevron-right"></i>Animation</li>
+              <li><i class="bx bx-chevron-right"></i>Logo Design</li>
+              <li><i class="bx bx-chevron-right"></i>Video Editing</li>
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+      <%--    <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Join Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
-          </div>
+          </div>--%>
 
         </div>
       </div>
@@ -1087,7 +1086,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/DOT CONNECT-free-onepage-bootstrap-theme/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          <%--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>--%>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">

@@ -51,7 +51,7 @@
             <li><a class="nav-link scrollto" href="Default.aspx">Services</a></li>
             <li><a class="nav-link scrollto " href="portfolio.aspx">Portfolio</a></li>
             <%--<li><a class="nav-link scrollto" href="Default.aspx">Team</a></li>--%>
-              <li><a class="nav-link scrollto" href="Default.aspx">Contact</a></li>
+              <li><a class="nav-link scrollto" href="Contact">Contact</a></li>
             <li><a class="getstarted scrollto" href="Default.aspx">Get Started</a></li>
              </ul>
              <i class="bi bi-list mobile-nav-toggle"></i>
@@ -110,15 +110,15 @@
               <div class="swiper-wrapper align-items-center">
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
+                  <img src="assets/img/portfolio/w18.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
+                  <img src="assets/img/portfolio/w19.png" alt="">
                 </div>
 
                 <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
+                  <img src="assets/img/portfolio/vd2.jpg" alt="">
                 </div>
 
               </div>
@@ -137,9 +137,9 @@
               </ul>
             </div>
             <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
+              <h2>portfolio detail</h2>
               <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
+               DOT CONNECT is the USA based marketing agency that is offering a full range of in-house digital marketing services and solutions to various purpose-driven industries. We aim to make our top client’s brand name eminent amid its adversaries through custom web development, captivating content, and robust marketing strategies. Our digital agency doesn’t offer higher quality traffic but results that bring revenue..
               </p>
             </div>
           </div>
@@ -169,35 +169,38 @@
             </p>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+       <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="nav-link scrollto"></i> <a href="#Default.aspx">Home</a></li>
+              <li><i class="nav-link scrollto"></i>   <a href="#Default.aspx">About us</a></li>
+              <li><i class="nav-link scrollto"></i>  <a href="#services">Services</a></li>
+              <li><i class="nav-link scrollto"></i>  <a href="#Portfolio.aspx">Portfolio</a></li>
+             
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+
+            <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i>Web Development</li>
+              <li><i class="bx bx-chevron-right"></i>Application Development</li>
+              <li><i class="bx bx-chevron-right"></i>Marketing</li>
+              <li><i class="bx bx-chevron-right"></i>Animation</li>
+              <li><i class="bx bx-chevron-right"></i>Logo Design</li>
+              <li><i class="bx bx-chevron-right"></i>Video Editing</li>
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+
+     <%--     <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Join Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
-          </div>
+          </div>--%>
 
         </div>
       </div>
@@ -214,7 +217,7 @@
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bethany-free-onepage-bootstrap-theme/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          <%--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>--%>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
