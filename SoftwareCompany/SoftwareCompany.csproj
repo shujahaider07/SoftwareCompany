@@ -67,6 +67,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\DotConnectDatabase.mdf" />
+    <Content Include="App_Data\DotConnectDatabase_log.ldf">
+      <DependentUpon>DotConnectDatabase.mdf</DependentUpon>
+    </Content>
     <Content Include="Default.aspx" />
     <Content Include="Portfolio.aspx" />
     <Content Include="portfolioDetails.aspx" />

@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+using System.Configuration;
+using System.Data.SqlClient;
+
 
 namespace SoftwareCompany
 {
@@ -13,5 +11,33 @@ namespace SoftwareCompany
         {
 
         }
+        String cs = ConfigurationManager.ConnectionStrings["dbcs"].ConnectionString;
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            if (IsPostBack)
+            {
+
+                SqlConnection sql = new SqlConnection(cs);
+                sql.Open();
+                String qry = "insert into dottbl values (@namee , @email , @messagee , @subjectt)";
+                SqlCommand cmd = new SqlCommand(qry, sql);
+                cmd.Parameters.AddWithValue("@namee", nametxt.Text);
+                cmd.Parameters.AddWithValue("@email", Emailtxt.Text);
+                cmd.Parameters.AddWithValue("@messagee", Messgaetxt.Text);
+                cmd.Parameters.AddWithValue("@subjectt", subjrcttxt.Text);
+                int a = cmd.ExecuteNonQuery();
+                if (a > 0)
+                {
+                    this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('Good job!', 'Login Sucessfully!', 'success');", true);
+                }
+                else
+                {
+                    this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('Oops!', 'Invalid Password!', 'error');", true);
+                }
+                sql.Close();
+            }
+        }
+           
     }
 }

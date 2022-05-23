@@ -31,7 +31,13 @@
   <!-- Template Main CSS File -->       
   <link href="assets/css/style.css" rel="stylesheet">
 
- 
+     
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.0/sweetalert.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.0/sweetalert.min.css"
+       
+     rel="stylesheet" type="text/css" />
+
+
 </head>
 <body>
     <form id="form1" runat="server">
@@ -1048,29 +1054,42 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
 
       </div>
     </section><!-- End Testimonials Section -->
-
+                    
 
             <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
               <div class="row">
-                <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                <div class="col-md-12 form-group">
+                  <%--<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>--%>
+                    <asp:TextBox ID="nametxt" runat="server" class="form-control"  placeholder="Your Name"></asp:TextBox>
+                    </div>
+                  
+                  <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" Display="Dynamic" ErrorMessage="Please Fill Proper Form" ControlToValidate="nametxt"></asp:RequiredFieldValidator>
+                <br />
+                  <br />
+                  <div class="col-md-12 form-group mt-3 mt-md-0">
+
+                  <%--<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>--%>
+                    <asp:TextBox ID="Emailtxt" runat="server" TextMode="Email" class="form-control" name="email"  placeholder="Your Email"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Enter Proper Format" Display="Dynamic" ControlToValidate="emailtxt"></asp:RequiredFieldValidator>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
+                <%--<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>--%>
+                  <asp:TextBox ID="subjrcttxt" runat="server" class="form-control"  placeholder="Subject"></asp:TextBox>
+                  <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="subjrcttxt" Display="Dynamic" ErrorMessage="Write Subject"></asp:RequiredFieldValidator>
+                  </div>
               <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                <%--<textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>--%>
+                  <asp:TextBox ID="Messgaetxt" runat="server" class="form-control"  placeholder="Message" Height="87px" TextMode="MultiLine"></asp:TextBox>
+                  <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="Messgaetxt" Display="Dynamic" ErrorMessage="Write Message "></asp:RequiredFieldValidator>
+                  </div>
+             <br />
               </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <%--<div class="text-center"><button type="submit" class="btn btn-outline-primary"  >Send Message</button></div>--%>
+            <div class="text-center">
+            <asp:Button ID="Button1" runat="server" Text="Send Message" class="btn btn-outline-primary" OnClick
+                ="Button1_Click"/>
+            </div>
             </form>
           </div>
         </div>
@@ -1170,10 +1189,6 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
-
-
-
 
     </form>
 </body>
