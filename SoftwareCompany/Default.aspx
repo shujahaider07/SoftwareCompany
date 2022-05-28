@@ -6,6 +6,7 @@
 <head runat="server">
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
  
   <title>DOT CONNECT</title>
@@ -54,24 +55,29 @@
         s0.parentNode.insertBefore(s1, s0);
     })();
 </script>
+
 <!--End of Tawk.to Script-->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container">
-      <div class="header-container d-flex align-items-center justify-content-between">
+  <header id="header" <class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+  
+      <div class="container">
+      <div class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
         <div class="logo">
           <%--<h1 class="text-light"><a href="Default.aspx"><span>DOT CONNECT</span></a></h1>--%>
                 <%--<img src="assets/img/clients/client-6.png" class="img-fluid" alt="Responsive image"/><a href="default.aspx"></a></>--%>
-            <h1 class="text-light"><class="img-fluid" alt="Responsive image"><a href="default.aspx"><span>DOT CONNECT</span></a></h1>
-          <!-- Uncomment below if you prefer to use an image logo -->
+            <%--<h1 class="text-light"><class="img-fluid" alt="Responsive image"><a href="default.aspx"><span>DOT CONNECT</span></a></h1>--%>
+          
+            <img class="d-none d-sm-block" src="assets/img/clients/logo.png" alt="logo" style="margin-top:2px;"/>
+            <!-- Uncomment below if you prefer to use an image logo -->
           <%--<a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>--%>
-        </div>
+        
+              </div>
 
         <nav id="navbar" class="navbar">
           <ul>
             <li><a class="nav-link scrollto active" href="Default.aspx">Home</a></li>
-            <li><a class="nav-link scrollto" href="">About</a></li>
+            <li><a class="nav-link scrollto" href="Default.aspx">About</a></li>
             <li><a class="nav-link scrollto" href="#services">Services</a></li>
-            <li><a class="nav-link scrollto " href="Portfolio.aspx">Portfolio</a></li>
+            <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
             <%--<li><a class="nav-link scrollto" href="#team">Team</a></li>--%>
             <li><a class="nav-link scrollto" href="#Contact">Contact</a></li>
             <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
@@ -106,14 +112,32 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-    <div class="container text-center position-relative" data-aos="fade-in" data-aos-delay="200">
-      <h1>ABOUT US </h1>
-      <h2>We are able to deliver a fully operational and bespoke site in just 3 days! Providing we have content in advance our team specialize in creating your designs in less than 72 hours – impressive stuff!</h2>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
-    </div>
-  </section><!-- End Hero -->
+ <!-- End Hero -->
+        
+        <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="assets/img/clients/dback.jpg" class="d-block  w-100"/>
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/clients/graphicss.jpg" class="d-block  w-100"/>
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/clients/wd.jpg" class="d-block  w-100"/>
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/img/clients/V.jpg" class="d-block  w-100"/>
+        </div>
+      <div class="swiper-slide">
+          <img src="assets/img/clients/M.jpg" class="d-block  w-100"/>
+      </div>
+   
+      </div>
 
+      <div class="swiper-button-next"></div 
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
   <main id="main">
 
     <!-- ======= Clients Section ======= -->
@@ -122,29 +146,29 @@
 
         <div class="row">
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="100">
-            <img src="assets/img/clients/client-3.png" class="img-fluid" alt="">
+          <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+            <img src="assets/img/clients/web.png" class="img-fluid" alt="">
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="200">
-            <img src="assets/img/clients/client-4.png" class="img-fluid" alt="">
+          <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="200">
+            <img src="assets/img/clients/market.png" class="img-fluid" alt="">
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="300">
-            <img src="assets/img/clients/client-1.png" class="img-fluid" alt="">
+          <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="300">
+            <img src="assets/img/clients/Video.png" class="img-fluid" alt="">
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="400">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="400">
+            <img src="assets/img/clients/Graphics.png" class="img-fluid" alt="">
           </div>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="500">
+         <%-- <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="500">
             <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div>
+          </div>--%>
 
-          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
-            <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-          </div>
+         <%-- <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
+            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
+          </div>--%>
 
         </div>
 
@@ -159,14 +183,14 @@
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
             <h2>OUR VISION</h2>
             <h3>
-DOT CONNECT was created to solve these problems; problems of time, finance, and a lack of technical skills.</h3>
+             DOT CONNECT was created to solve these problems; problems of time, finance, and a lack of technical skills.</h3>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
             <p>
               
                 Communication is an essential key; we deliver your visions into reality. Assisting you with your plans is what we are for, not only Website Designers we develop it from scratch; we tend to assist in business goals, as our client's requirement is essential and we provide them with amazing Graphic Design Services in USA.
                 At DOT CONNECT (The finest Graphic Design Company in USA) We design your content, which is easy to understand and effective for you and your client to operate. We give vision to your reality.
-            To make the project outstanding, our experts brainstorm on your requirement, giving equal importance to your suggestions and requirements. After going through every detail, the project is developed.
+                To make the project outstanding, our experts brainstorm on your requirement, giving equal importance to your suggestions and requirements. After going through every detail, the project is developed.
             </p>
             <ul>
               <li><i class="ri-check-double-line"></i> Ongoing email support</li>
@@ -289,10 +313,10 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
               <div class="section-title" data-aos="fade-right">
                     <h2>HERE CREATIVITY MEETS TECHNOLOGY</h2>
                           <p>DOT CONNECT is the Digital Design Company in USA that is fulfilling all your web needs as we are delivering the Best SEO Services, Web Design Services USA, Video Animation Services, interactive advertising, marketing support, and a lot more. We treat your business as our own so whatever services you are looking for, just feel free to reach out to us. Furthermore, we bring life to your creative imaginations with our years of experience in the field by providing an extensive range of Digital Design Services in USA. Our competence is not restricted to logo designing. Here we empower businesses, brands, or organizations to generate lead through both organic and paid marketing strategies.Logo Designing | Wesite Development | Video Animation | Search Engine Optimization | Social Media Marketing
-</p>
+                   </p>
 
               </div>
-          </div>
+              </div>
 
 
 
@@ -370,7 +394,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <p>WEB</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/w18.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfoliodetails.aspx" title="More Details"><i class="bx bx-link"></i></a>
+                  <%--<a href="portfoliodetails.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
             </div>
@@ -384,7 +408,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <p>Animation</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/an-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>
+                  <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
             </div>
@@ -455,7 +479,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <p>APP</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/a3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>
+                  <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
             </div>
@@ -469,7 +493,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <p>Animation</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/an-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>
+                  <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
             </div>
@@ -483,7 +507,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <p>WEB</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/w1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>
+                  <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
             </div>
@@ -491,13 +515,13 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/a1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/a1.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>APP</h4>
                 <p>APP</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/a1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>
+                  <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
             </div>
@@ -511,7 +535,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <p>APP</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/a3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>
+                  <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
             </div>
@@ -526,7 +550,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <p>APP</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/a4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>
+                  <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
             </div>
@@ -543,7 +567,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <p>APP</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/a5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>
+                  <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
             </div>
@@ -558,7 +582,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <p>APP</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/a6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>
+                  <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
             </div>
@@ -575,7 +599,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
                 <p>Animation</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/an-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>
+                  <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
             </div>
@@ -590,10 +614,9 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
       <h1>OUR PACKAGES</h1>
           <h7>Whatever we do, we simply aim to take it above average. Our portfolio displays some of our successful projects over the years.</h7>
      </div>
-
-
-
-      <section id="pricing" class="pricing">
+      <div class="container" data-aos="fade-up">
+          
+<section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -655,7 +678,8 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
           </div>
 
           <%--Pricing for video  --%>
-
+    
+      
   <section id="pricing" class="pricing">
       <div class="container" data-aos="fade-up">
 
@@ -965,7 +989,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
     </section><!-- End Team Section -->--%>
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+    <section id="Contact" class="contact">
       <div class="container">
         <div class="row">
           <div class="col-lg-4" data-aos="fade-right">
@@ -1087,7 +1111,7 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
               </div>
               <%--<div class="text-center"><button type="submit" class="btn btn-outline-primary"  >Send Message</button></div>--%>
             <div class="text-center">
-            <asp:Button ID="Button1" runat="server" Text="Send Message" class="btn btn-outline-primary" OnClick
+            <asp:Button ID="Button1" runat="server" Text="Send Message" class="btn btn-success" OnClick
                 ="Button1_Click"/>
             </div>
             </form>
@@ -1188,8 +1212,27 @@ DOT CONNECT was created to solve these problems; problems of time, finance, and 
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="assets/js/main.js"></script> 
 
     </form>
+     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <script type="text/javascript">
+     var swiper = new Swiper(".mySwiper", {
+         spaceBetween: 30,
+         effect: "fade",
+         autoplay: {
+             delay: 2500,
+             disableOnInteraction: false,
+         },
+         navigation: {
+             nextEl: ".swiper-button-next",
+             prevEl: ".swiper-button-prev",
+         },
+         pagination: {
+             el: ".swiper-pagination",
+             clickable: true,
+         },
+     });
+ </script>
 </body>
 </html>
