@@ -811,7 +811,7 @@
                   <div class="testimonial-item">
                     <p>
                       <%--<i class="bx bxs-qu"></i>--%>
-                    <%--<img src="assets/img/clients/phone.png" class="testimonial-img" alt="">--%>
+                    <img src="assets/img/clients/phone.png" class="testimonial-img" alt="">
                         <br />
                         Call Professional Consultants
                         You can call our professional consultants anytime, we're available around the clock for you assistance.    
