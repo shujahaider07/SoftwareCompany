@@ -61,7 +61,7 @@
     <div class="container">
       <div class="header-container d-flex align-items-center justify-content-between">
         <div class="logo">
-          <h1 class="text-light"><a href="index.html"><span><img src="/assets/img/clients/logo.png" alt="Dot Connect Logo"></span></a></h1>
+          <h1 class="text-light"><a href="Default.aspx"><span><img src="/assets/img/clients/logo.png" alt="Dot Connect Logo"></span></a></h1>
         </div>
 
         <nav id="navbar" class="navbar">
@@ -150,10 +150,7 @@
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
             <p>
-              
-                Communication is an essential key; we deliver your visions into reality. Assisting you with your plans is what we are for, not only Website Designers we develop it from scratch; we tend to assist in business goals, as our client's requirement is essential and we provide them with amazing Graphic Design Services in USA.
-                At DOT CONNECT (The finest Graphic Design Company in USA) We design your content, which is easy to understand and effective for you and your client to operate. We give vision to your reality.
-                To make the project outstanding, our experts brainstorm on your requirement, giving equal importance to your suggestions and requirements. After going through every detail, the project is developed.
+              The mission at Dot Connect is simple, we want to provide our customers with the best designing, development and marketing services. We are determined to provide our customers a peace of mind that their brand is in safe and capable hands who will help them grow into a much bigger corporation through immense hard work and dedication. We treat our client’s company as if it was our own and work to get the most reach, publicity and success as possible. Our packages are straightforward and includes every aspect of our services for the most affordable pricing. Our mission to provide the best services in the lowest and most affordable price is the key to our success and why we have more than thousands of satisfied and happy customers who trust us with their brands and allow us to help them grow more and more, and to evolve their organization  to a world-renowned brand through our skilled and hard-working team..
             </p>
             <ul>
               <li><i class="ri-check-double-line"></i> Ongoing email support</li>
@@ -609,7 +606,7 @@
                 Reports</li>
             </ul>
             <div class="d-grid">
-              <a href="#" class="btn btn-primary text-uppercase">Button</a>
+              <a href="#" class="btn btn-success text-uppercase">Button</a>
             </div>
           </div>
         </div>
@@ -633,7 +630,7 @@
                 Reports</li>
             </ul>
             <div class="d-grid">
-              <a href="#" class="btn btn-primary text-uppercase">Button</a>
+              <a href="#" class="btn btn-success text-uppercase">Button</a>
             </div>
           </div>
         </div>
@@ -658,7 +655,7 @@
               <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
             </ul>
             <div class="d-grid">
-              <a href="#" class="btn btn-primary text-uppercase">Button</a>
+              <a href="#" class="btn btn-success text-uppercase">Button</a>
             </div>
           </div>
         </div>
@@ -691,7 +688,7 @@
                         Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.    
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                    <%--<img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">--%>
                     <h3>Saul Goodman</h3>
                     <h4>Ceo &amp; Founder</h4>
                   </div>
@@ -704,7 +701,7 @@
                       Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                    <%--<img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">--%>
                     <h3>Sara Wilsson</h3>
                     <h4>Designer</h4>
                   </div>
@@ -717,7 +714,7 @@
                       Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                    <%--<img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">--%>
                     <h3>Jena Karlis</h3>
                     <h4>Store Owner</h4>
                   </div>
@@ -730,7 +727,7 @@
                       Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                    <%--<img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">--%>
                     <h3>Matt Brandon</h3>
                     <h4>Freelancer</h4>
                   </div>
@@ -743,7 +740,7 @@
                       Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                    <%--<img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">--%>
                     <h3>John Larson</h3>
                     <h4>Entrepreneur</h4>
                   </div>
@@ -814,7 +811,7 @@
                   <div class="testimonial-item">
                     <p>
                       <%--<i class="bx bxs-qu"></i>--%>
-                    <img src="assets/img/clients/phone.png" class="testimonial-img" alt="">
+                    <%--<img src="assets/img/clients/phone.png" class="testimonial-img" alt="">--%>
                         <br />
                         Call Professional Consultants
                         You can call our professional consultants anytime, we're available around the clock for you assistance.    
@@ -904,7 +901,7 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="nav-link scrollto"></i> <a href="#Default.aspx">Home</a></li>
-              <li><i class="nav-link scrollto"></i>   <a href="#Default.aspx">About us</a></li>
+              <li><i class="nav-link scrollto"></i>  <a href="#Default.aspx">About us</a></li>
               <li><i class="nav-link scrollto"></i>  <a href="#services">Services</a></li>
               <li><i class="nav-link scrollto"></i>  <a href="#Portfolio.aspx">Portfolio</a></li>
              
@@ -948,7 +945,7 @@
 
   <!-- Vendor JS Files -->
   
-   <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
