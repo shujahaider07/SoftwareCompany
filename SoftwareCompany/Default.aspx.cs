@@ -38,6 +38,6 @@ namespace SoftwareCompany
                 sql.Close();
             }
         }
-           
+
     }
 }

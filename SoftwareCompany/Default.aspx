@@ -6,7 +6,7 @@
 <head runat="server">
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
  
   <title>DOT CONNECT</title>
@@ -40,7 +40,7 @@
 
 
 </head>
-<body>
+<body id="body">
     <form id="form1" runat="server">
         <!-- ======= Header ======= -->
         <!--Start of Tawk.to Script-->
@@ -55,62 +55,32 @@
         s0.parentNode.insertBefore(s1, s0);
     })();
 </script>
+</div>
 
-<!--End of Tawk.to Script-->
-  <header id="header" <class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
-  
-      <div class="container">
-      <div class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
+<header id="header" class="d-flex align-items-center">
+    <div class="container">
+      <div class="header-container d-flex align-items-center justify-content-between">
         <div class="logo">
-          <%--<h1 class="text-light"><a href="Default.aspx"><span>DOT CONNECT</span></a></h1>--%>
-                <%--<img src="assets/img/clients/client-6.png" class="img-fluid" alt="Responsive image"/><a href="default.aspx"></a></>--%>
-            <%--<h1 class="text-light"><class="img-fluid" alt="Responsive image"><a href="default.aspx"><span>DOT CONNECT</span></a></h1>--%>
-          
-            <img class="d-none d-sm-block" src="assets/img/clients/logo.png" alt="logo" style="margin-top:2px;"/>
-            <!-- Uncomment below if you prefer to use an image logo -->
-          <%--<a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>--%>
-        
-              </div>
+          <h1 class="text-light"><a href="index.html"><span><img src="/assets/img/clients/logo.png" alt="Dot Connect Logo"></span></a></h1>
+        </div>
 
         <nav id="navbar" class="navbar">
           <ul>
-            <li><a class="nav-link scrollto active" href="Default.aspx">Home</a></li>
+            
             <li><a class="nav-link scrollto" href="Default.aspx">About</a></li>
             <li><a class="nav-link scrollto" href="#services">Services</a></li>
             <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-            <%--<li><a class="nav-link scrollto" href="#team">Team</a></li>--%>
-            <li><a class="nav-link scrollto" href="#Contact">Contact</a></li>
-            <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           
-                   <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-
-             <%--   <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-                  <ul>
-                 <li><a href="#">Drop Down 1</a></li>
-             <%--   <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                  <ul>
-                    <li><a href="#">Deep Drop Down 1</a></li>
-                    <li><a href="#">Deep Drop Down 2</a></li>
-                    <li><a href="#">Deep Drop Down 3</a></li>
-                    <li><a href="#">Deep Drop Down 4</a></li>
-                    <li><a href="#">Deep Drop Down 5</a></li>
-                  </ul>
-                </li>
-                <li><a href="#">Drop Down 2</a></li>
-                <li><a href="#">Drop Down 3</a></li>
-                <li><a href="#">Drop Down 4</a></li>
-              </ul>
-            </li>
-          </ul>--%>
-
-          
-     
+          </li>
+         
+          </ul>
+          <i class="bi mobile-nav-toggle bi-list text-success"></i>
+        </nav><!-- .navbar -->
 
       </div><!-- End Header Container -->
     </div>
-  </header><!-- End Header -->
-
+  </header>
   <!-- ======= Hero Section ======= -->
  <!-- End Hero -->
         
@@ -134,7 +104,8 @@
    
       </div>
 
-      <div class="swiper-button-next"></div 
+
+      <div class="swiper-button-next"></div> 
       <div class="swiper-button-prev"></div>
       <div class="swiper-pagination"></div>
     </div>
@@ -161,14 +132,6 @@
           <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="400">
             <img src="assets/img/clients/Graphics.png" class="img-fluid" alt="">
           </div>
-
-         <%-- <div class="col-lg-3 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="500">
-            <img src="assets/img/clients/client-5.png" class="img-fluid" alt="">
-          </div>--%>
-
-         <%-- <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center" data-aos="zoom-in" data-aos-delay="600">
-            <img src="assets/img/clients/client-2.png" class="img-fluid" alt="">
-          </div>--%>
 
         </div>
 
@@ -317,11 +280,6 @@
 
               </div>
               </div>
-
-
-
-            
-
 
           <div class="col-lg-8">
             <div class="row">
@@ -550,7 +508,6 @@
                 <p>APP</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/a4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
             </div>
@@ -567,7 +524,6 @@
                 <p>APP</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/a5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
             </div>
@@ -582,7 +538,6 @@
                 <p>APP</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/a6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
             </div>
@@ -599,7 +554,6 @@
                 <p>Animation</p>
                 <div class="portfolio-links">
                   <a href="assets/img/portfolio/an-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
             </div>
@@ -611,203 +565,109 @@
     </section><!-- End Portfolio Section -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-      <h1>OUR PACKAGES</h1>
-          <h7>Whatever we do, we simply aim to take it above average. Our portfolio displays some of our successful projects over the years.</h7>
+      <h1></h1>
      </div>
       <div class="container" data-aos="fade-up">
+  
+
           
-<section id="pricing" class="pricing">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Pricing OF WEB</h2>
-          <%--<p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>--%>
-        </div>
+      <section id="Packages" class="testimonials section-bg">
+      <div class="container">
 
         <div class="row">
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>BASIC WEB</h3>
-              <h4><sup>$225</sup><span></span></h4>
-              <ul>
-                <li>1 Page Website Design</li>
-                <li>HTML Based</li>
-                <li>1 Banner Design</li>
-                <li class="na">Contact/Query Form</li>
-                <li class="na">3 Revisions</li>
-              </ul>
-              <div class="btn-wrap">
-                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
-              </div>
+          <div class="col-lg-10">
+            <div class="section-title" data-aos="fade-right">
+              <h2>OUR WEBSITES PACKAGES</h2>
+               <h7>Whatever we do, we simply aim to take it above average. Our portfolio displays some of our successful projects over the years.</h7>
             </div>
           </div>
+        
+            <!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
 
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
-            <div class="box featured">
-              <h3>STARTUP WEB</h3>
-              <h4><sup>$425</sup><span></span></h4>
-              <ul>
-                <li>3 Page Website Design</li>
-                <li>HTML Based</li>
-                <li>Hover Effects</li>
-                <li>2 Banner Designs</li>
-                <li class="na">2 Stock Photos (You can provide us more)</li>
-              </ul>
-              <div class="btn-wrap">
-                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
-              </div>
+<section class="pricing py-5">
+  <div class="container">
+    <div class="row">
+      <!-- Free Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
+            <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited
+                Private Projects</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated
+                Phone Support</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free Subdomain
+              </li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
+                Reports</li>
+            </ul>
+            <div class="d-grid">
+              <a href="#" class="btn btn-primary text-uppercase">Button</a>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <h3>Professional Web</h3>
-              <h4><sup>$825</sup><span></span></h4>
-              <ul>
-                <li>Up to 5 Pages Website Design</li>
-                <li>3 Banner Designs</li>
-                <li>Content Management System (WordPress)</li>
-                <li>Sliding Banner</li>
-                <li>Hover Effects</li>
-              </ul>
-              <div class="btn-wrap">
-                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
-              </div>
-            </div>
-          </div>
-
-          <%--Pricing for video  --%>
-    
-      
-  <section id="pricing" class="pricing">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Pricing of Video</h2>
-       <%--   <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliqui--%>
         </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>BASIC VIDEO</h3>
-              <h4><sup>$325</sup>0<span> / month</span></h4>
-              <ul>
-                <li>30 Second Video</li>
-                <li>Professional Script</li>
-                <li>Custom Design</li>
-                <li class="na">Custom Animation</li>
-                <li class="na">Voice Over & Sound Effects</li>
-              </ul>
-              <div class="btn-wrap">
-                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
-              </div>
+      </div>
+      <!-- Plus Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
+            <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Users</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain</li>
+              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
+                Reports</li>
+            </ul>
+            <div class="d-grid">
+              <a href="#" class="btn btn-primary text-uppercase">Button</a>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
-            <div class="box featured">
-              <h3>STARTUP VIDEO</h3>
-              <h4><sup>$825</sup><span></span></h4>
-              <ul>
-                <li>60 Second Video</li>
-                <li>Storyboard</li>
-                <li>Custom Animation</li>
-                <li>Custom Design</li>
-                <li class="na">Voice Over & Sound Effects</li>
-              </ul>
-              <div class="btn-wrap">
-                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <h3>Professional VIEDO</h3>
-              <h4><sup>$1325</sup><span>50%off</span></h4>
-              <ul>
-                <li>90 Second Video</li>
-                <li>Professional Script</li>
-                <li>Custom Design</li>
-                <li>Custom Animation</li>
-                <li>Voice Over & Sound Effects 5 weeks Delivery</li>
-              </ul>
-              <div class="btn-wrap">
-                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
-              </div>
-            </div>
-          </div>
-
-            <%-- Priciong fot app --%>
-              <section id="pricing" class="pricing">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Pricing of APPS</h2>
-         
         </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>BASIC APP</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
-              </div>
+      </div>
+      <!-- Pro Tier -->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
+            <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited Users</strong>
+              </li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Free
+                Subdomains</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
+            </ul>
+            <div class="d-grid">
+              <a href="#" class="btn btn-primary text-uppercase">Button</a>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
-            <div class="box featured">
-              <h3>STARTUP APP</h3>
-              <h4><sup>$</sup>19<span>50%off</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-            <div class="box">
-              <h3>Professional APP</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <%--<a href="#" class="btn-buy">Buy Now</a>--%>
-              </div>
-            </div>
-          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
-
-
-
-    <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
       <div class="container">
 
@@ -897,97 +757,7 @@
 
       </div>
     </section><!-- End Testimonials Section -->
-
-    <!-- ======= Team Section ======= -->
-  <%--  <section id="team" class="team">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="section-title" data-aos="fade-right">
-              <h2>Team</h2>
-              <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem.</p>
-            </div>
-          </div>
-          <div class="col-lg-8">
-            <div class="row">
-
-              <div class="col-lg-6">
-                <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                  <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-                  <div class="member-info">
-                    <h4>Walter White</h4>
-                    <span>Chief Executive Officer</span>
-                    <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                    <div class="social">
-                      <a href=""><i class="ri-twitter-fill"></i></a>
-                      <a href=""><i class="ri-facebook-fill"></i></a>
-                      <a href=""><i class="ri-instagram-fill"></i></a>
-                      <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-6 mt-4 mt-lg-0">
-                <div class="member" data-aos="zoom-in" data-aos-delay="200">
-                  <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-                  <div class="member-info">
-                    <h4>Sarah Jhonson</h4>
-                    <span>Product Manager</span>
-                    <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                    <div class="social">
-                      <a href=""><i class="ri-twitter-fill"></i></a>
-                      <a href=""><i class="ri-facebook-fill"></i></a>
-                      <a href=""><i class="ri-instagram-fill"></i></a>
-                      <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-6 mt-4">
-                <div class="member" data-aos="zoom-in" data-aos-delay="300">
-                  <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-                  <div class="member-info">
-                    <h4>William Anderson</h4>
-                    <span>CTO</span>
-                    <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                    <div class="social">
-                      <a href=""><i class="ri-twitter-fill"></i></a>
-                      <a href=""><i class="ri-facebook-fill"></i></a>
-                      <a href=""><i class="ri-instagram-fill"></i></a>
-                      <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-6 mt-4">
-                <div class="member" data-aos="zoom-in" data-aos-delay="400">
-                  <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
-                  <div class="member-info">
-                    <h4>Amanda Jepson</h4>
-                    <span>Accountant</span>
-                    <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                    <div class="social">
-                      <a href=""><i class="ri-twitter-fill"></i></a>
-                      <a href=""><i class="ri-facebook-fill"></i></a>
-                      <a href=""><i class="ri-instagram-fill"></i></a>
-                      <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->--%>
-
+             
     <!-- ======= Contact Section ======= -->
     <section id="Contact" class="contact">
       <div class="container">
@@ -995,7 +765,7 @@
           <div class="col-lg-4" data-aos="fade-right">
             <div class="section-title">
               <h2>Contact</h2>
-              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              <p>Looking to expand your horizons? DOT connect is the expert at just what you're looking for! Just help out our simple questionnaire.</p>
             </div>
           </div>
 
@@ -1048,27 +818,12 @@
                         <br />
                         Call Professional Consultants
                         You can call our professional consultants anytime, we're available around the clock for you assistance.    
-                      <%--<i class="bx bxs-quote-alt-right quote-icon-right"></i>--%>
                     </p>
-                    <%--<img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">--%>
                     <h3>CALL US : +19159969739</h3>
                   </div>
                 </div><!-- End testimonial item -->
 
-                <div class="swiper-slide">
-                  <div class="testimonial-item">
-                    <p>
-                          <img src="assets/img/clients/chat.png" class="testimonial-img" alt="">
-                        <br />
-                      <%--<i class="bx bxs-quote-alt-left quote-icon-left"></i>--%>
-                      We're also available on live chat service 24/7! Just ping us and we'll take care of it all.
-                      <%--<i class="bx bxs-quote-alt-right quote-icon-right"></i>--%>
-                    </p>
-                    <%--<img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">--%>
-                    <h3>TALK WITH US </h3>
-                    
-                  </div>
-                </div><!-- End testimonial item -->
+  
 
               </div>
               <div class="swiper-pagination"></div>
@@ -1123,6 +878,10 @@
 
   </main><!-- End #main -->
 
+
+        
+
+
   <!-- ======= Footer ======= -->
   <footer id="footer">
 
@@ -1164,14 +923,6 @@
             </ul>
           </div>
 
-      <%--    <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-          </div>--%>
-
         </div>
       </div>
     </div>
@@ -1181,13 +932,6 @@
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
           &copy; Copyright <strong><span>DOT CONNECT</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/DOT CONNECT-free-onepage-bootstrap-theme/ -->
-          <%--Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>--%>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
@@ -1203,7 +947,8 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  
+   <script src="assets/vendor/purecounter/purecounter.js"></script>
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -1213,7 +958,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script> 
-
+    
     </form>
      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
  <script type="text/javascript">

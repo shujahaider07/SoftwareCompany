@@ -27,6 +27,18 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+ #header-main{
+     top: -100px;
+     transition: 0.35s top;
+ }
+
+.topfix{
+    transition: 0.35s top;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -74,9 +86,9 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   top: 20px;
 }
-#header .header-container {
-  background: #fff;
-}
+    #header .header-container {
+        background: #fbe0f3;
+    }
 #header.header-scrolled {
   background: #fff;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -85,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo {
   overflow: hidden;
   padding: 16px 30px 12px 30px;
-  background: #0000ffff;
+  background: transparent;
 }
 #header .logo h1 {
   font-size: 26px;
@@ -107,10 +119,10 @@ h1, h2, h3, h4, h5, h6 {
   #header {
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     top: 0;
-    background: #009970;
+    background: transparent;
   }
   #header.header-scrolled, #header .header-container {
-    background: #009970;
+    background: transparent;
   }
   #header .logo {
     padding-left: 0;
@@ -428,9 +440,9 @@ section {
 # Clients
 --------------------------------------------------------------*/
 .clients {
-  background: #f6f6f7;
-  text-align: center;
-  padding: 5px 0;
+    background: ##e3f0f6;
+    text-align: center;
+    padding: 5px 0;
 }
 .clients img {
   width: 40%;
@@ -1248,3 +1260,68 @@ section {
   color: #fff;
   text-decoration: none;
 }
+/*Cards*/
+section.pricing {
+    background: #009970;
+    background: linear-gradient(to right, #009970, #009970);
+}
+
+.pricing .card {
+    border: none;
+    border-radius: 1rem;
+    transition: all 0.2s;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+    margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+}
+
+.pricing .card-price {
+    font-size: 3rem;
+    margin: 0;
+}
+
+    .pricing .card-price .period {
+        font-size: 0.8rem;
+    }
+
+.pricing ul li {
+    margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+    opacity: 0.7;
+}
+
+.pricing .btn {
+    font-size: 80%;
+    border-radius: 5rem;
+    letter-spacing: .1rem;
+    font-weight: bold;
+    padding: 1rem;
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+    .pricing .card:hover {
+        margin-top: -.25rem;
+        margin-bottom: .25rem;
+        box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+    }
+
+        .pricing .card:hover .btn {
+            opacity: 1;
+        }
+}
+
