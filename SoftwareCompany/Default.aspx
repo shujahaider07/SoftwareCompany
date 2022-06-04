@@ -61,7 +61,7 @@
     <div class="container">
       <div class="header-container d-flex align-items-center justify-content-between">
         <div class="logo">
-          <h1 class="text-light"><a href="Default.aspx"><span><img src="/assets/img/clients/logo.png" alt="Dot Connect Logo"></span></a></h1>
+          <h1 class="text-light"><a href="Default.aspx"><span><img src="/assets/img/clients/logoo.png" alt="Dot Connect Logo"></span></a></h1>
         </div>
 
         <nav id="navbar" class="navbar">
@@ -90,7 +90,7 @@
           <img src="assets/img/clients/graphicss.jpg" class="d-block  w-100"/>
         </div>
         <div class="swiper-slide">
-          <img src="assets/img/clients/dback.jpg" class="d-block  w-100"/>
+          <img src="assets/img/clients/wal.jpg" class="d-block  w-100"/>
         </div>
         <div class="swiper-slide">
           <img src="assets/img/clients/wd.jpg" class="d-block  w-100"/>
@@ -574,7 +574,7 @@
         <div class="row">
           <div class="col-lg-10">
             <div class="section-title" data-aos="fade-right">
-              <h2>OUR PACKAGES</h2>
+              <h2>OUR SERVICES</h2>
                <h7>Whatever we do, we simply aim to take it above average. Our portfolio displays some of our successful projects over the years.</h7>
             </div>
           </div>
@@ -594,17 +594,17 @@
             <ul class="fa-ul">
                 <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>1 to 10+ Page Website Design (On Selection)</strong>
               </li>           
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>1 to 6+ Banner Designs (On Selection)</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Sliding Banners (Addon)</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Stock Images (Addon)</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Effects (Addon)</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Animations (Addon)</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Content Management System (WordPress) (Addon)</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Dropdown Menu (Addon)</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Contact Form (Addon)</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Complete Deployment</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Guaranteed Satisfaction</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>FOR MORE CUSTOMIZABILITY, GET our Custom Plan with Full control</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>1 to 6+ Banner Designs (On Selection)</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Sliding Banners (Addon)</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Stock Images (Addon)</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Effects (Addon)</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Animations (Addon)</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Content Management System (WordPress) (Addon)</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Dropdown Menu (Addon)</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Contact Form (Addon)</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Complete Deployment</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Guaranteed Satisfaction</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>FOR MORE CUSTOMIZABILITY, GET our Custom Plan with Full control</li></strong>
              <%-- <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited
                 Private Projects</li>
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated
@@ -630,11 +630,14 @@
             <h6 class="card-price text-center">Graphic Designing<span class="period"></span></h6>
             <hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>From 2 up to 10+ Logo Design Ideas (On Selection)</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Limited Revisions of Design</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Creative and Attractive Designs</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Stationary Designs (Letterhead, Envelope, Business Card) (Addon)</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Fast Delivery Time</li>
+               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Get Instant Reach and Queries</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Facebook and Instagram Advertising by Posting.</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Colorful and Intuitive Designs</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Creative Designs for Banners</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Attractive posts for maximum reach</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Charges will be paid on a monthly basis</li></strong>
+              
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Facebook and Instagram Promotion Charges are not included in the package. To be paid separately by buyer.</li></strong>
               
               <%--<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
                 Reports</li>--%>
@@ -657,14 +660,13 @@
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>From 5 up to 30 Posts per month</strong>
               </li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Get Instant Reach and Queries</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Facebook and Instagram Advertising by Posting.</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Colorful and Intuitive Designs</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Creative Designs for Banners</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Attractive posts for maximum reach</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Charges will be paid on a monthly basis</li>
-              
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Facebook and Instagram Promotion Charges are not included in the package. To be paid separately by buyer.</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>From 2 up to 10+ Logo Design Ideas (On Selection)</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Limited Revisions of Design</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Creative and Attractive Designs</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Stationary Designs (Letterhead, Envelope, Business Card) (Addon)</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Fast Delivery Time</li></strong>
+            
+            
             </ul>
             <div class="d-grid">
               <a href="#" class="btn btn-success text-uppercase">For Pricing,Text or Call Us 
