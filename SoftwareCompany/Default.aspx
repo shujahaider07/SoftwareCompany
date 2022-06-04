@@ -70,7 +70,7 @@
             <li><a class="nav-link scrollto" href="Default.aspx">About</a></li>
             <li><a class="nav-link scrollto" href="#services">Services</a></li>
             <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
           
           </li>
          
@@ -87,10 +87,10 @@
         <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="assets/img/clients/dback.jpg" class="d-block  w-100"/>
+          <img src="assets/img/clients/graphicss.jpg" class="d-block  w-100"/>
         </div>
         <div class="swiper-slide">
-          <img src="assets/img/clients/graphicss.jpg" class="d-block  w-100"/>
+          <img src="assets/img/clients/dback.jpg" class="d-block  w-100"/>
         </div>
         <div class="swiper-slide">
           <img src="assets/img/clients/wd.jpg" class="d-block  w-100"/>
@@ -574,7 +574,7 @@
         <div class="row">
           <div class="col-lg-10">
             <div class="section-title" data-aos="fade-right">
-              <h2>OUR WEBSITES PACKAGES</h2>
+              <h2>OUR PACKAGES</h2>
                <h7>Whatever we do, we simply aim to take it above average. Our portfolio displays some of our successful projects over the years.</h7>
             </div>
           </div>
@@ -588,25 +588,36 @@
       <div class="col-lg-4">
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Free</h5>
-            <h6 class="card-price text-center">$0<span class="period">/month</span></h6>
+            <h5 class="card-title text-muted text-uppercase text-center"></h5>
+            <h6 class="card-price text-center">Website<span class="period"></span></h6>
             <hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Single User</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>5GB Storage</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited
+                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>1 to 10+ Page Website Design (On Selection)</strong>
+              </li>           
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>1 to 6+ Banner Designs (On Selection)</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Sliding Banners (Addon)</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Stock Images (Addon)</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Effects (Addon)</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Animations (Addon)</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Content Management System (WordPress) (Addon)</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Dropdown Menu (Addon)</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Contact Form (Addon)</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Complete Deployment</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Guaranteed Satisfaction</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>FOR MORE CUSTOMIZABILITY, GET our Custom Plan with Full control</li>
+             <%-- <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited
                 Private Projects</li>
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated
                 Phone Support</li>
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free Subdomain
               </li>
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
-                Reports</li>
+                Reports</li>--%>
             </ul>
             <div class="d-grid">
-              <a href="#" class="btn btn-success text-uppercase">Button</a>
+              <a href="#" class="btn btn-success text-uppercase">For Pricing,Text or Call Us 
+                  <br />
+                  +1 (512) 957-7690</a>
             </div>
           </div>
         </div>
@@ -615,22 +626,23 @@
       <div class="col-lg-4">
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Plus</h5>
-            <h6 class="card-price text-center">$9<span class="period">/month</span></h6>
+            <h5 class="card-title text-muted text-uppercase text-center"></h5>
+            <h6 class="card-price text-center">Graphic Designing<span class="period"></span></h6>
             <hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>5 Users</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>50GB Storage</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Free Subdomain</li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
-                Reports</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>From 2 up to 10+ Logo Design Ideas (On Selection)</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Limited Revisions of Design</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Creative and Attractive Designs</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Stationary Designs (Letterhead, Envelope, Business Card) (Addon)</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Fast Delivery Time</li>
+              
+              <%--<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
+                Reports</li>--%>
             </ul>
             <div class="d-grid">
-              <a href="#" class="btn btn-success text-uppercase">Button</a>
+              <a href="#" class="btn btn-success text-uppercase">For Pricing,Text or Call Us 
+                  <br />
+                  +1 (512) 957-7690</a>
             </div>
           </div>
         </div>
@@ -639,23 +651,25 @@
       <div class="col-lg-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title text-muted text-uppercase text-center">Pro</h5>
-            <h6 class="card-price text-center">$49<span class="period">/month</span></h6>
+            <h5 class="card-title text-muted text-uppercase text-center"></h5>
+            <h6 class="card-price text-center">Digital Marketing<span class="period"></span></h6>
             <hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited Users</strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>From 5 up to 30 Posts per month</strong>
               </li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>150GB Storage</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Public Projects</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Community Access</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Unlimited Private Projects</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Dedicated Phone Support</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Unlimited</strong> Free
-                Subdomains</li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Monthly Status Reports</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Get Instant Reach and Queries</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Facebook and Instagram Advertising by Posting.</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Colorful and Intuitive Designs</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Creative Designs for Banners</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Attractive posts for maximum reach</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Charges will be paid on a monthly basis</li>
+              
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Facebook and Instagram Promotion Charges are not included in the package. To be paid separately by buyer.</li>
             </ul>
             <div class="d-grid">
-              <a href="#" class="btn btn-success text-uppercase">Button</a>
+              <a href="#" class="btn btn-success text-uppercase">For Pricing,Text or Call Us 
+                  <br />
+                  +1 (512) 957-7690</a>
             </div>
           </div>
         </div>
@@ -672,7 +686,7 @@
           <div class="col-lg-4">
             <div class="section-title" data-aos="fade-right">
               <h2>Testimonials</h2>
-              <p>Magnam dolores commodi suscipit uisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+              <p>Definitely worth the investment. Absolutely wonderful! It fits our needs perfectly. Talented individuals</p>
             </div>
           </div>
         
@@ -685,11 +699,11 @@
                   <div class="testimonial-item">
                     <p>
                       <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.    
+                        Without your Marketing expertise, we would have gone bankrupt by now. Your expertise has really boosted and enhanced our business. Just what I was looking for    
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
                     <%--<img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">--%>
-                    <h3>Saul Goodman</h3>
+                    <h3>Jack Mangold</h3>
                     <h4>Ceo &amp; Founder</h4>
                   </div>
                 </div><!-- End testimonial item -->
@@ -697,13 +711,13 @@
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                      <i class="bx bxs-quote-al t-left quote-icon-left"></i>
+                      Their designs are creative, and the team is co-operative. I can not thank them enough for their dedication and hard work to promote my startup
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
                     <%--<img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">--%>
-                    <h3>Sara Wilsson</h3>
-                    <h4>Designer</h4>
+                    <h3>Jeffrey McCallister</h3>
+                    <h4>Marketing Manager</h4>
                   </div>
                 </div><!-- End testimonial item -->
 
@@ -711,12 +725,12 @@
                   <div class="testimonial-item">
                     <p>
                       <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                   Responsible for the management and coordination of all content projects. Collaborate with Project Managers
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
                     <%--<img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">--%>
-                    <h3>Jena Karlis</h3>
-                    <h4>Store Owner</h4>
+                    <h3>Molly Summers</h3>
+                    <h4>Project Head</h4>
                   </div>
                 </div><!-- End testimonial item -->
 
@@ -724,12 +738,12 @@
                   <div class="testimonial-item">
                     <p>
                       <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                   Being a workaholic, I tried creating it for free with online tools but was never satisfied, I love the new logo and it is everything I ever asked for
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
                     <%--<img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">--%>
-                    <h3>Matt Brandon</h3>
-                    <h4>Freelancer</h4>
+                    <h3>-Ian Morgan</h3>
+                    <h4>Cfo</h4>
                   </div>
                 </div><!-- End testimonial item -->
 
@@ -737,12 +751,12 @@
                   <div class="testimonial-item">
                     <p>
                       <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                      The team was a pleasure to work with and understood the project well, the delivery exceed our expectations and we look forward to hopefully using their services again
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
                     <%--<img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">--%>
-                    <h3>John Larson</h3>
-                    <h4>Entrepreneur</h4>
+                    <h3>Kristen Brown</h3>
+                    <h4>Owner/ Founder</h4>
                   </div>
                 </div><!-- End testimonial item -->
 
@@ -771,7 +785,7 @@
             <div class="info mt-4">
               <i class="bi bi-geo-alt"></i>
               <h4>Location:</h4>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <p>Street 9, Glenelg St, South Brisbane QLD 4101, Australia</p>
             </div>
             <div class="row">
               <div class="col-lg-6 mt-4">
@@ -785,7 +799,7 @@
                 <div class="info w-100 mt-4">
                   <i class="bi bi-phone"></i>
                   <h4>Call:</h4>
-                  <p>+1 5589 55488 55s</p>
+                  <p>+1 (512) 957-7690</p>
                 </div>
 
               </div>
@@ -816,7 +830,7 @@
                         Call Professional Consultants
                         You can call our professional consultants anytime, we're available around the clock for you assistance.    
                     </p>
-                    <h3>CALL US : +19159969739</h3>
+                    <h3>CALL US : +1 (512) 957-7690</h3>
                   </div>
                 </div><!-- End testimonial item -->
 
@@ -832,39 +846,41 @@
     </section><!-- End Testimonials Section -->
                     
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+        
               <div class="row">
-                <div class="col-md-12 form-group">
-                  <%--<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>--%>
+                <div class="col-md-12 form-group">              
+                    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+                    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                    <ContentTemplate>
+                                                
                     <asp:TextBox ID="nametxt" runat="server" class="form-control"  placeholder="Your Name"></asp:TextBox>
-                    </div>
-                  
+                    </div>      
                   <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" Display="Dynamic" ErrorMessage="Please Fill Proper Form" ControlToValidate="nametxt"></asp:RequiredFieldValidator>
-                <br />
-                  <br />
+                   <br />
                   <div class="col-md-12 form-group mt-3 mt-md-0">
-
-                  <%--<input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>--%>
                     <asp:TextBox ID="Emailtxt" runat="server" TextMode="Email" class="form-control" name="email"  placeholder="Your Email"></asp:TextBox>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Enter Proper Format" Display="Dynamic" ControlToValidate="emailtxt"></asp:RequiredFieldValidator>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <%--<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>--%>
+              
                   <asp:TextBox ID="subjrcttxt" runat="server" class="form-control"  placeholder="Subject"></asp:TextBox>
                   <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="subjrcttxt" Display="Dynamic" ErrorMessage="Write Subject"></asp:RequiredFieldValidator>
                   </div>
               <div class="form-group mt-3">
-                <%--<textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>--%>
+         
                   <asp:TextBox ID="Messgaetxt" runat="server" class="form-control"  placeholder="Message" Height="87px" TextMode="MultiLine"></asp:TextBox>
                   <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ControlToValidate="Messgaetxt" Display="Dynamic" ErrorMessage="Write Message "></asp:RequiredFieldValidator>
                   </div>
              <br />
               </div>
-              <%--<div class="text-center"><button type="submit" class="btn btn-outline-primary"  >Send Message</button></div>--%>
+            <br />
             <div class="text-center">
             <asp:Button ID="Button1" runat="server" Text="Send Message" class="btn btn-success" OnClick
                 ="Button1_Click"/>
+                      </ContentTemplate>
+                    </asp:UpdatePanel>
+                    
             </div>
             </form>
           </div>
@@ -889,10 +905,10 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>DOT CONNECT</h3>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
+              Street 9, Glenelg St <br>
+               South Brisbane QLD 4101<br>
+              Australia <br><br>
+              <strong>Phone:</strong> +1 (512) 957-7690<br>
               <strong>Email:</strong> info@example.com<br>
             </p>
           </div>

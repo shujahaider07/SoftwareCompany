@@ -30,6 +30,10 @@ namespace SoftwareCompany
                 if (a > 0)
                 {
                     this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('Good job!', 'Login Sucessfully!', 'success');", true);
+                    nametxt.Text = "";
+                    Emailtxt.Text = "";
+                    Messgaetxt.Text = "";
+                    subjrcttxt.Text = "";
                 }
                 else
                 {
