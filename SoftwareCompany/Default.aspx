@@ -55,7 +55,7 @@
         s0.parentNode.insertBefore(s1, s0);
     })();
 </script>
-</div>
+
 
 <header id="header" class="d-flex align-items-center">
     <div class="container">
@@ -341,7 +341,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/w18.png" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/w18.png" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>WEB</h4>
                 <p>WEB</p>
@@ -398,7 +398,7 @@
 
                <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/vd9.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/vd9.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>WEB</h4>
                 <p>WEB</p>
@@ -426,7 +426,7 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-card">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/a3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/a3.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>APP</h4>
                 <p>APP</p>
@@ -593,16 +593,16 @@
                 <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>1 to 10+ Page Website Design (On Selection)</strong>
               </li>           
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>1 to 6+ Banner Designs (On Selection)</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Sliding Banners (Addon)</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Stock Images (Addon)</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Effects (Addon)</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Animations (Addon)</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Content Management System (WordPress) (Addon)</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Dropdown Menu (Addon)</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Contact Form (Addon)</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Complete Deployment</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Guaranteed Satisfaction</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>FOR MORE CUSTOMIZABILITY, GET our Custom Plan with Full control</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Sliding Banners (Addon)</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Stock Images (Addon)</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Effects (Addon)</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Animations (Addon)</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Content Management System (WordPress) (Addon)</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Dropdown Menu (Addon)</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Contact Form (Addon)</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Complete Deployment</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Guaranteed Satisfaction</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>FOR MORE CUSTOMIZABILITY, GET our Custom Plan with Full control</strong></li>
              <%-- <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited
                 Private Projects</li>
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated
@@ -628,14 +628,14 @@
             <h6 class="card-price text-center">Graphic Designing<span class="period"></span></h6>
             <hr>
             <ul class="fa-ul">
-               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Get Instant Reach and Queries</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Facebook and Instagram Advertising by Posting.</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Colorful and Intuitive Designs</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Creative Designs for Banners</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Attractive posts for maximum reach</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Charges will be paid on a monthly basis</li></strong>
+               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Get Instant Reach and Queries</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Facebook and Instagram Advertising by Posting</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Colorful and Intuitive Designs</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Creative Designs for Banners</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Attractive posts for maximum reach</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Charges will be paid on a monthly basis</strong></li>
               
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Facebook and Instagram Promotion Charges are not included in the package. To be paid separately by buyer.</li></strong>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Facebook and Instagram Promotion Charges are not included in the package. To be paid separately by buyer</strong></li>
               
               <%--<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
                 Reports</li>--%>
@@ -907,9 +907,9 @@
           <div class="col-lg-3 col-md-6 footer-contact">
             <h3>DOT CONNECT</h3>
             <p>
-              Street 9, Glenelg St <br>
-               South Brisbane QLD 4101<br>
-              Australia <br><br>
+              Street 9, Glenelg St <br/>
+               South Brisbane QLD 410<br />
+              Australia <br/><br/>
               <strong>Phone:</strong> +1 (512) 957-7690<br>
               <strong>Email:</strong> info@example.com<br>
             </p>
@@ -974,7 +974,7 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script> 
     
-    </form>
+    
      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
  <script type="text/javascript">
      var swiper = new Swiper(".mySwiper", {
