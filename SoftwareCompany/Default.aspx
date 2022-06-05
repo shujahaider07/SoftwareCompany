@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
@@ -854,9 +854,10 @@
                     <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
                     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                     <ContentTemplate>
-                                                
+                                        
                     <asp:TextBox ID="nametxt" runat="server" class="form-control"  placeholder="Your Name"></asp:TextBox>
-                    </div>      
+                    </div>
+                    
                   <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" Display="Dynamic" ErrorMessage="Please Fill Proper Form" ControlToValidate="nametxt"></asp:RequiredFieldValidator>
                    <br />
                   <div class="col-md-12 form-group mt-3 mt-md-0">
