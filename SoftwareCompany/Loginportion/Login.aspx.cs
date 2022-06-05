@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.UI;
-using System.Web.UI.WebControls;
+using System.Configuration;
+using System.Data.SqlClient;
 
 namespace SoftwareCompany.Loginportion
 {
@@ -11,6 +8,35 @@ namespace SoftwareCompany.Loginportion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
+        }
+
+        String cs = ConfigurationManager.ConnectionStrings["dbcs"].ConnectionString;
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+
+            SqlConnection sql = new SqlConnection(cs);
+            sql.Open();
+            String qry = "select * from login where username = @user and password = @pass";
+            SqlCommand cmd = new SqlCommand(qry, sql);
+            cmd.Parameters.AddWithValue("@user", usertxt.Text);
+            cmd.Parameters.AddWithValue("@pass", passwordtxt.Text);
+            SqlDataReader dr = cmd.ExecuteReader();
+            if (dr.HasRows == true)
+            {
+                Response.Write("login");
+
+            }
+            else
+            {
+                Response.Write("login failed");
+
+            }
+
+
+
+
+            sql.Close();
 
         }
     }
