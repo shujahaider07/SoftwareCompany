@@ -85,19 +85,19 @@
         <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="assets/img/clients/graphicss.jpg" class="d-block  w-100"/>
+          <img src="assets/img/clients/Swipper/wal-min.jpg" class="d-block  w-100"/>
         </div>
         <div class="swiper-slide">
-          <img src="assets/img/clients/wal.jpg" class="d-block  w-100"/>
+          <img src="assets/img/clients/Swipper/graphicss-min.jpg" class="d-block  w-100"/>
         </div>
         <div class="swiper-slide">
-          <img src="assets/img/clients/wd.jpg" class="d-block  w-100"/>
+          <img src="assets/img/clients/Swipper/wd-min.jpg" class="d-block  w-100"/>
         </div>
         <div class="swiper-slide">
-          <img src="assets/img/clients/V.jpg" class="d-block  w-100"/>
+          <img src="assets/img/clients/Swipper/V-min.jpg" class="d-block  w-100"/>
         </div>
       <div class="swiper-slide">
-          <img src="assets/img/clients/M.jpg" class="d-block  w-100"/>
+          <img src="assets/img/clients/Swipper/M-min.jpg" class="d-block  w-100"/>
       </div>
    
       </div>
@@ -975,7 +975,7 @@
   <script src="assets/js/main.js"></script> 
     
     
-     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+ <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
  <script type="text/javascript">
      var swiper = new Swiper(".mySwiper", {
          spaceBetween: 30,

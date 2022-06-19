@@ -24,12 +24,14 @@ namespace SoftwareCompany.Loginportion
             SqlDataReader dr = cmd.ExecuteReader();
             if (dr.HasRows == true)
             {
-                Response.Write("login");
+                this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('Good job!', 'Login Sucessfully!', 'success');", true);
+                
 
             }
             else
             {
-                Response.Write("login failed");
+
+                this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('', 'Login Failed  !', '');", true);
 
             }
 

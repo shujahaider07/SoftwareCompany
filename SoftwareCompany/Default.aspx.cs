@@ -29,7 +29,7 @@ namespace SoftwareCompany
                 int a = cmd.ExecuteNonQuery();
                 if (a > 0)
                 {
-                    this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('Good job!', 'Login Sucessfully!', 'success');", true);
+                    this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('Good job!', 'Filled Sucessfully!', 'success');", true);
                     nametxt.Text = "";
                     Emailtxt.Text = "";
                     Messgaetxt.Text = "";
