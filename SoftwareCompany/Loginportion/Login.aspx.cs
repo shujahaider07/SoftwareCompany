@@ -8,6 +8,8 @@ namespace SoftwareCompany.Loginportion
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            usertxt.Focus();
+            
 
         }
 
@@ -24,8 +26,11 @@ namespace SoftwareCompany.Loginportion
             SqlDataReader dr = cmd.ExecuteReader();
             if (dr.HasRows == true)
             {
+                Session["user"] = usertxt.Text;
+
                 this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('Good job!', 'Login Sucessfully!', 'success');", true);
-                
+
+                Response.Redirect("~/Dashboard.aspx");
 
             }
             else
@@ -33,6 +38,7 @@ namespace SoftwareCompany.Loginportion
 
                 this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('', 'Login Failed  !', '');", true);
 
+            
             }
 
 

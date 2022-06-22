@@ -7,15 +7,16 @@
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
   <title>DOT CONNECT</title>
   <meta content="" name="description" />
   <meta content="" name="keywords" />
   
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon" />
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+  <link href="assets/img/logooo.png" rel="icon" />
+  <link href="assets/img/logooo.png" rel="apple-touch-icon" />
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
@@ -67,7 +68,7 @@
         <nav id="navbar" class="navbar">
           <ul>
             
-            <li><a class="nav-link scrollto" href="Default.aspx">About</a></li>
+            <li><a class="nav-link scrollto" href="Default.aspx">Home</a></li>
             <li><a class="nav-link scrollto" href="#services">Services</a></li>
             <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
             <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
@@ -142,9 +143,9 @@
 
         <div class="row content">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-            <h2>OUR VISION</h2>
+            <h2>OUR MISSION</h2>
             <h3>
-             DOT CONNECT was created to solve these problems; problems of time, finance, and a lack of technical skills.</h3>
+             One stop solution to grow your business </h3>
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
             <p>
@@ -153,7 +154,7 @@
             <ul>
               <li><i class="ri-check-double-line"></i> Ongoing email support</li>
               <li><i class="ri-check-double-line"></i> Access to a huge library of high quality stock images</li>
-              <li><i class="ri-check-double-line"></i> Initial 60 minute video call with company founder Alex Butler to discuss your needs and design concept</li>
+              <%--<li><i class="ri-check-double-line"></i> Initial 60 minute video call with company founder Alex Butler to discuss your needs and design concept</li>--%>
             </ul>
             <p class="fst-italic">
               
@@ -169,7 +170,7 @@
     <section id="counts" class="counts">
       <div class="container">
 
-        <div class="row counters">
+        <div class="row counters">  
 
           <div class="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
@@ -203,12 +204,12 @@
         <div class="row">
           <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-right">
             <div class="content">
-              <h3>Helping Brands through Digital Design Services</h3>
+              <h3>Why choose us?</h3>
               <p>
-               DOT CONNECT is a highly Professional Website Development and innovative Digital Design Agency USA that helps businesses to increase leads, sales, and revenue by retaining the targeted audience. The utmost goal here is to define brands by scaling it up with our top vetted logo designing services and assist our partners to become prominent. In today's era, a robust online existence is extremely essential to grab the attention of folks. A successful and visually pleasing logo not only draws attention but can take any firm to places.
+              We are a team of young, experienced, and hard-working individuals who strive to make your company a success and relieve you of any worries related to the media sector by providing services such as Full Website Development with Deployment, Creative Logo Designing, Marketing through digital and social media platforms via video and image promotion. The utmost goal here is to define brands by scaling it up with our design services. In today's era, a robust online existence is extremely essential to grab attention and stand out.
               </p>
               <div class="text-center">
-                <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
+                <%--<a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>--%>
               </div>
             </div>
           </div>
@@ -219,21 +220,21 @@
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-receipt"></i>
                     <h4>Highly skilled professionals</h4>
-                    <p>You don't have to worry; your work is in good hands. In our Graphic Design Agency, each of our members has a decade of experience in a specific field and is aware of the innovations and technologies.</p>
+                    <p>You don't have to worry; your company is in good hands. In our team, each member has a decade of experience in a specific field and is aware of the innovations and technologies.</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bi bi-emoji-heart-eyes"></i>
                     <h4>Customer satisfaction</h4>
-                    <p>Keeping our customers happy is what makes our day. Your Business is equally important to us, just like you. We deliver Creative Graphic Design Services and we never compromise on our standards. We ensure that each project matches our standard, enriched with innovation and success </p>
+                    <p>Keeping our customers happy is what makes our day. Your Business is equally important to us, just like you. We never compromise on our standards, which is evident through the sheer number of satisfied, happy, and returning clients who refer our services to their colleagues looking to start up. We ensure that each project matches our standard, enriched with innovation and success.</p>
                   </div>
                 </div>
                 <div class="col-xl-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bi bi-lock-fill"></i>
                     <h4>Security</h4>
-                    <p>Keeping our clients safe is essential for us as a leading Graphic Design Company in USA. While dealing with online vendors, we ensure that digital security is to hold as a top priority.</p>
+                    <p>Keeping our clients safe is essential for us as we prioritize customer loyalty over anything else as a happy and satisfied customer will come back and refer us to others. While dealing with online vendors, we ensure that digital security is to hold as a top priority, and nothing compromises our bond with our customers.</p>
                   </div>
                 </div>
               </div>
@@ -249,9 +250,9 @@
       <div class="container">
 
         <div class="text-center" data-aos="zoom-in">
-          <h3>Call To Action</h3>
-          <p> We are always available for our clients, no matter what time it is, we are more than happy to help you at any hour and deliver you with the best graphic design services in USA as per your requirements.</p>
-          <a class="cta-btn" href="#">Call To Action</a>
+          <h3>Call Us Whenever You Want</h3>
+          <p>We are always available for our clients, no matter what time it is, we are more than happy to help you at any hour and help you with your queries, needs and much more.</p>
+          <%--<a class="cta-btn" href="#">Call To Action</a>--%>
         </div>
 
       </div>
@@ -264,8 +265,8 @@
         <div class="row">
           <div class="col-lg-4">
             <div class="section-title" data-aos="fade-right">
-              <h2>Services</h2>
-              <p>We have a Professional Website Development Team who work smart and fast with the latest technologies, which will not only deliver Creative Graphic Design Services but your projects will be delivered to you on time as well. Our rates are affordable for the creative graphic design services that we are providing. We guaranty your prom delivery.</p>
+              <h2>How Dot Connect can help your brand?</h2>
+              <p>Our web development and marketing company is an all-rounder which comprises highly professional and creative developers, marketers, and designers who all gel in their capabilities and expertise and come up with the best of solutions meeting all the requirements of the clients. We completely comprehend the significance of the digital platform and how it works as a bridge to join a brand with its desired audience. So be rest assured with your hard-earned money with us.</p>
             
             </div>
               <div class="section-title" data-aos="fade-right">
@@ -282,7 +283,7 @@
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
                   <div class="icon"><i class="bi bi-globe2"></i></div>
                   <h4><a href="">Websites</a></h4>
-                  <p>DOT CONNECT is committed to helping organizations to escalate through unique Web Design and Development Strategies by using up-to-date technologies for web development in los angeles. Owning cyberspace is one of the most promising ways to communicate with the modern generation.</p>
+                  <p>Give your brand an online presence and jump into the business world with a professional website. Take your brand to the next level with the help of our professional website design team.</p>
                 </div>
               </div>
 
@@ -290,15 +291,15 @@
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
                   <div class="icon"><i class="bi bi-image-fill"></i></div>
                   <h4><a href="">Video Editing</a></h4>
-                  <p>DOT CONNECT is the Best Video Animation Company and known for producing captivating and engaging Video Animations Services for the customers living in the USA. By helping companies and brands to lift their esteem through converting prospects into effective customers</p>
+                  <p>Promote and market your product or service, increase engagement on your digital and social channels, educate your consumers and reach your audience in an emotionally engaging way and catch their attention in a digitally overloaded world.</p>
                 </div>
               </div>
 
               <div class="col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
                   <div class="icon"><i class="bi bi-camera-reels-fill"></i></div>
-                  <h4><a href="">Animation</a></h4>
-                  <p>DOT CONNECT povides the best SMM Services in USA as our professional SMM Team is very hard-working and well-trained in the respective field and have new Animation Marketing techniques that help you propagate your business rapidly.</p>
+                  <h4><a href="">Marketing</a></h4>
+                  <p>Social Media and Digital Marketing provides brands with a way to engage with existing customers and reach new ones while allowing them to promote to the desired audience. Great marketing on social media can bring remarkable success to your business, creating devoted brand advocates and even driving leads and sales.</p>
                 </div>
               </div>
 
@@ -306,7 +307,7 @@
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="400">
                   <div class="icon"><i class="bi bi-activity"></i></div>
                   <h4><a href="">Digital Marketing</a></h4>
-                  <p>DOT CONNECT povides the best SMM Services in USA as our professional SMM Team is very hard-working and well-trained in the respective field and have new Social Media Marketing techniques that help you propagate your business rapidly.</p>
+                  <p>Social Media and Digital Marketing provides brands with a way to engage with existing customers and reach new ones while allowing them to promote to the desired audience. Great marketing on social media can bring remarkable success to your business, creating devoted brand advocates and even driving leads and sales.</p>
                 </div>
               </div>
 
@@ -323,19 +324,19 @@
 
         <div class="section-title" data-aos="fade-left">
           <h2>Portfolio</h2>
-          <p>DOT CONNECT is the USA based marketing agency that is offering a full range of in-house digital marketing services and solutions to various purpose-driven industries. We aim to make our top client’s brand name eminent amid its adversaries through custom web development, captivating content, and robust marketing strategies. Our digital agency doesn’t offer higher quality traffic but results that bring revenue. </p>
+          <p>Dot Connect is a marketing agency that is offering a full range of in-house digital marketing services and solutions to various purpose-driven industries. We aim to make our top client’s brand name eminent amid its adversaries through custom web development, captivating content, and robust marketing strategies. Our digital agency doesn’t offer higher quality traffic but results that bring revenue.</p>
         </div>
-
+            
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
               <li data-filter=".filter-app">WEBSITES</li>
               <li data-filter=".filter-card">APP</li>
-              <li data-filter=".filter-web">VIDEO</li>
+              <li data-filter=".filter-web">LOGO</li>
             </ul>
           </div>
-        </div>
+            </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
@@ -344,9 +345,9 @@
               <img src="assets/img/portfolio/w18.png" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>WEB</h4>
-                <p>WEB</p>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/w18.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/w18.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bi bi-eye-fill"></i></a>
                   <%--<a href="portfoliodetails.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
@@ -355,12 +356,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/an-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/logo3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Animation</h4>
-                <p>Animation</p>
+                <h4>Logo</h4>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/an-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/logo3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bi bi-eye-fill"></i></a>
                   <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
@@ -372,9 +373,9 @@
               <img src="assets/img/portfolio/w19.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>WEB</h4>
-                <p>WEB</p>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/w19.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/w19.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bi bi-eye-fill"></i></a>
                   <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
@@ -387,9 +388,9 @@
               <img src="assets/img/portfolio/vd2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>WEB</h4>
-                <p>WEB</p>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/vd2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/vd2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bi bi-eye-fill"></i></a>
                   <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
@@ -401,9 +402,9 @@
               <img src="assets/img/portfolio/vd9.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>WEB</h4>
-                <p>WEB</p>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/vd9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/vd9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bi bi-eye-fill"></i></a>
                   <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
@@ -415,9 +416,9 @@
               <img src="assets/img/portfolio/vd4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>WEB</h4>
-                <p>WEB</p>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/vd4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/vd4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bi bi-eye-fill"></i></a>
                   <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
@@ -429,9 +430,9 @@
               <img src="assets/img/portfolio/a3.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>APP</h4>
-                <p>APP</p>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/a3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/a3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bi bi-eye-fill"></i></a>
                   <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
@@ -440,12 +441,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/an-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/logo1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Animation</h4>
-                <p>Animation</p>
+                <h4>Logo</h4>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/an-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/logo1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bi bi-eye-fill"></i></a>
                   <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
@@ -457,9 +458,9 @@
               <img src="assets/img/portfolio/w1.png" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>WEB</h4>
-                <p>WEB</p>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/w1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/w1.png" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bi bi-eye-fill"></i></a>
                   <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
@@ -471,9 +472,9 @@
               <img src="assets/img/portfolio/a1.jpg" class="img-fluid" alt="" />
               <div class="portfolio-info">
                 <h4>APP</h4>
-                <p>APP</p>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/a1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/a1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bi bi-eye-fill"></i></a>
                   <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
@@ -485,9 +486,9 @@
               <img src="assets/img/portfolio/a3.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>APP</h4>
-                <p>APP</p>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/a3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/a3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bi bi-eye-fill"></i></a>
                   <%--<a href="portfolio-details.aspx" title="More Details"><i class="bx bx-link"></i></a>--%>
                 </div>
               </div>
@@ -500,9 +501,9 @@
               <img src="assets/img/portfolio/a4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>APP</h4>
-                <p>APP</p>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/a4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/a4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -516,9 +517,9 @@
               <img src="assets/img/portfolio/a5.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>APP</h4>
-                <p>APP</p>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/a5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/a5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -530,9 +531,9 @@
               <img src="assets/img/portfolio/a6.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
                 <h4>APP </h4>
-                <p>APP</p>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/a6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/a6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -543,12 +544,12 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/an-4.jpg" class="img-fluid" alt="">
+              <img src="assets/img/portfolio/logo2.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Animation</h4>
-                <p>Animation</p>
+                <h4>Logo</h4>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/an-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="assets/img/portfolio/logo2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title=""><i class="bi bi-eye-fill"></i></a>
                 </div>
               </div>
             </div>
@@ -573,7 +574,7 @@
           <div class="col-lg-10">
             <div class="section-title" data-aos="fade-right">
               <h2>OUR SERVICES</h2>
-               <h7>Whatever we do, we simply aim to take it above average. Our portfolio displays some of our successful projects over the years.</h7>
+               <h7>Whatever we do, we simply aim for perfection. Our portfolio displays some of our successful projects over the years. Our pricing is moderate and flexible, we make sure that our clientele gets their money’s worth. </h7>
             </div>
           </div>
         
@@ -625,12 +626,13 @@
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center"></h5>
-            <h6 class="card-price text-center">Graphic Designing<span class="period"></span></h6>
+            <h6 class="card-price text-center">Digital Marketing<span class="period"></span></h6>
             <hr>
             <ul class="fa-ul">
+               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>From 5 up to 30 Posts per month</strong></li>
                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Get Instant Reach and Queries</strong></li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Facebook and Instagram Advertising by Posting</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Colorful and Intuitive Designs</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Colorful and Intui tive Designs</strong></li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Creative Designs for Banners</strong></li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Attractive posts for maximum reach</strong></li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Charges will be paid on a monthly basis</strong></li>
@@ -653,11 +655,11 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center"></h5>
-            <h6 class="card-price text-center">Digital Marketing<span class="period"></span></h6>
+            <h6 class="card-price text-center">Graphic Designing<span class="period"></span></h6>
             <hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>From 5 up to 30 Posts per month</strong>
-              </li>
+   
+    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>From 2 up to 10+ Logo Design Ideas (On Selection)</strong</li> 
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>From 2 up to 10+ Logo Design Ideas (On Selection)</strong></li>
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Limited Revisions of Design</li></strong>
               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Creative and Attractive Designs</li></strong>
@@ -702,7 +704,7 @@
                         Without your Marketing expertise, we would have gone bankrupt by now. Your expertise has really boosted and enhanced our business. Just what I was looking for    
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <%--<img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">--%>
+                    <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
                     <h3>Jack Mangold</h3>
                     <h4>Ceo &amp; Founder</h4>
                   </div>
@@ -711,11 +713,11 @@
                 <div class="swiper-slide">
                   <div class="testimonial-item">
                     <p>
-                      <i class="bx bxs-quote-al t-left quote-icon-left"></i>
+                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
                       Their designs are creative, and the team is co-operative. I can not thank them enough for their dedication and hard work to promote my startup
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <%--<img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">--%>
+                    <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
                     <h3>Jeffrey McCallister</h3>
                     <h4>Marketing Manager</h4>
                   </div>
@@ -728,7 +730,7 @@
                    Responsible for the management and coordination of all content projects. Collaborate with Project Managers
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <%--<img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">--%>
+                    <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
                     <h3>Molly Summers</h3>
                     <h4>Project Head</h4>
                   </div>
@@ -741,7 +743,7 @@
                    Being a workaholic, I tried creating it for free with online tools but was never satisfied, I love the new logo and it is everything I ever asked for
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <%--<img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">--%>
+                    <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
                     <h3>-Ian Morgan</h3>
                     <h4>Cfo</h4>
                   </div>
@@ -754,7 +756,7 @@
                       The team was a pleasure to work with and understood the project well, the delivery exceed our expectations and we look forward to hopefully using their services again
                       <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                     </p>
-                    <%--<img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">--%>
+                    <img src="assets/img/testimonials/download.jpg" class="testimonial-img" alt="">
                     <h3>Kristen Brown</h3>
                     <h4>Owner/ Founder</h4>
                   </div>
@@ -776,7 +778,7 @@
           <div class="col-lg-4" data-aos="fade-right">
             <div class="section-title">
               <h2>Contact</h2>
-              <p>Looking to expand your horizons? DOT connect is the expert at just what you're looking for! Just help out our simple questionnaire.</p>
+              <p>Looking to expand your horizons? Dot Connect is the expert at just what you're looking for! We can help you with any digital service you require</p>
             </div>
           </div>
 
@@ -919,7 +921,6 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="nav-link scrollto"></i> <a href="#Default.aspx">Home</a></li>
-              <li><i class="nav-link scrollto"></i>  <a href="#Default.aspx">About us</a></li>
               <li><i class="nav-link scrollto"></i>  <a href="#services">Services</a></li>
               <li><i class="nav-link scrollto"></i>  <a href="#Portfolio.aspx">Portfolio</a></li>
              
@@ -932,7 +933,6 @@
               <li><i class="bx bx-chevron-right"></i>Web Development</li>
               <li><i class="bx bx-chevron-right"></i>Application Development</li>
               <li><i class="bx bx-chevron-right"></i>Marketing</li>
-              <li><i class="bx bx-chevron-right"></i>Animation</li>
               <li><i class="bx bx-chevron-right"></i>Logo Design</li>
               <li><i class="bx bx-chevron-right"></i>Video Editing</li>
             </ul>
@@ -950,11 +950,12 @@
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.paypal.com/us/signin" class="Paypal"><i class="bi bi-paypal"></i></a>
+        <a href="#" class="Visa"><i class="fa fa-cc-visa"></i>
+        <a href="#" class="Mastercard"><i class="fa fa-cc-mastercard"></i></a>
+        <a href="https://login.payoneer.com/" class="Payoneer"><i class="fa fa-credit-card"></i></a>
+        <a href="https://dashboard.stripe.com/login" class="Stripe"><i class="fa fa-cc-stripe"></i></a>
+        
       </div>
     </div>
   </footer><!-- End Footer -->
