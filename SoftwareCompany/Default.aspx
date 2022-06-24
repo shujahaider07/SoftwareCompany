@@ -289,7 +289,7 @@
 
               <div class="col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="200">
-                  <div class="icon"><i class="bi bi-image-fill"></i></div>
+                  <div class="icon"><i class="bi bi-camera-reels-fill"></i></div>
                   <h4><a href="">Video Editing</a></h4>
                   <p>Promote and market your product or service, increase engagement on your digital and social channels, educate your consumers and reach your audience in an emotionally engaging way and catch their attention in a digitally overloaded world.</p>
                 </div>
@@ -297,9 +297,9 @@
 
               <div class="col-md-6 d-flex align-items-stretch mt-4">
                 <div class="icon-box" data-aos="zoom-in" data-aos-delay="300">
-                  <div class="icon"><i class="bi bi-camera-reels-fill"></i></div>
-                  <h4><a href="">Marketing</a></h4>
-                  <p>Social Media and Digital Marketing provides brands with a way to engage with existing customers and reach new ones while allowing them to promote to the desired audience. Great marketing on social media can bring remarkable success to your business, creating devoted brand advocates and even driving leads and sales.</p>
+                  <div class="icon"><i class="bi bi-image-fill"></i></div>
+                  <h4><a href="">Graphic Designing</a></h4>
+                  <p>Logos are worth a thousand words and ideas, display your creativity through our impeccable graphical logo designs.<p>
                 </div>
               </div>
 
@@ -591,19 +591,19 @@
             <h6 class="card-price text-center">Website<span class="period"></span></h6>
             <hr>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>1 to 10+ Page Website Design (On Selection)</strong>
+                <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>1 to 10+ Page Website Design (On Selection)</strong>
               </li>           
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>1 to 6+ Banner Designs (On Selection)</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Sliding Banners (Addon)</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Stock Images (Addon)</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Effects (Addon)</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Animations (Addon)</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Content Management System (WordPress) (Addon)</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Dropdown Menu (Addon)</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Contact Form (Addon)</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Complete Deployment</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Guaranteed Satisfaction</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>FOR MORE CUSTOMIZABILITY, GET our Custom Plan with Full control</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>1 to 6+ Banner Designs (On Selection)</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Sliding Banners (Addon)</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Stock Images (Addon)</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Effects (Addon)</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Animations (Addon)</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Content Management System (WordPress) (Addon)</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Dropdown Menu (Addon)</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Contact Form (Addon)</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Complete Deployment</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Guaranteed Satisfaction</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>FOR MORE CUSTOMIZABILITY, GET our Custom Plan with Full control</strong></li>
              <%-- <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited
                 Private Projects</li>
               <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated
@@ -614,12 +614,12 @@
                 Reports</li>--%>
             </ul>
             <div class="d-grid">
-              <a href="#" class="btn btn-success text-uppercase">For Pricing,Text or Call Us 
-                  <br />
-                  +1 (512) 957-7690</a>
+                
+              <a class="btn btn-success text-uppercase" <a href="tel:+1 (424) 242-1972">For Pricing,Text or Call Us  <br /> +1 (424) 242-1972</a>
+             
             </div>
           </div>
-        </div>
+        </div> 
       </div>
       <!-- Plus Tier -->
       <div class="col-lg-4">
@@ -629,28 +629,27 @@
             <h6 class="card-price text-center">Digital Marketing<span class="period"></span></h6>
             <hr>
             <ul class="fa-ul">
-               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>From 5 up to 30 Posts per month</strong></li>
-               <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Get Instant Reach and Queries</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Facebook and Instagram Advertising by Posting</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Colorful and Intui tive Designs</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Creative Designs for Banners</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Attractive posts for maximum reach</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Charges will be paid on a monthly basis</strong></li>
+               <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>From 5 up to 30 Posts per month</strong></li>
+               <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Get Instant Reach and Queries</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Facebook and Instagram Advertising by Posting</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Colorful and Intui tive Designs</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Creative Designs for Banners</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Attractive posts for maximum reach</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Charges will be paid on a monthly basis</strong></li>
               
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Facebook and Instagram Promotion Charges are not included in the package. To be paid separately by buyer</strong></li>
-              
-              <%--<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
-                Reports</li>--%>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Facebook and Instagram Promotion Charges are not included in the package. To be paid separately by buyer</strong></li>
+            
             </ul>
-            <div class="d-grid">
-              <a href="#" class="btn btn-success text-uppercase">For Pricing,Text or Call Us 
-                  <br />
-                  +1 (512) 957-7690</a>
+            
+              <div class="d-grid">
+                
+              <a class="btn btn-success text-uppercase" <a href="tel:+1 (424) 242-1972">For Pricing,Text or Call Us  <br /> +1 (424) 242-1972</a>
+             
             </div>
           </div>
         </div>
       </div>
-      <!-- Pro Tier -->
+      <!-- Pro Tier --> 
       <div class="col-lg-4">
         <div class="card">
           <div class="card-body">
@@ -659,20 +658,19 @@
             <hr>
             <ul class="fa-ul">
    
-    <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>From 2 up to 10+ Logo Design Ideas (On Selection)</strong</li> 
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>From 2 up to 10+ Logo Design Ideas (On Selection)</strong></li>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Limited Revisions of Design</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Creative and Attractive Designs</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Stationary Designs (Letterhead, Envelope, Business Card) (Addon)</li></strong>
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Fast Delivery Time</li></strong>
+    <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>From 2 up to 10+ Logo Design Ideas (On Selection)</strong></li> 
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Limited Revisions of Design</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Creative and Attractive Designs</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Stationary Designs (Letterhead, Envelope, Business Card) (Addon)</strong></li>
+              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Fast Delivery Time</strong></li>
             
             
             </ul>
-            <div class="d-grid">
-              <a href="#" class="btn btn-success text-uppercase">For Pricing,Text or Call Us 
-                  <br />
-                  +1 (512) 957-7690</a>
-            </div>
+          <div class="d-grid">
+                
+              <a class="btn btn-success text-uppercase" <a href="tel:+1 (424) 242-1972">For Pricing,Text or Call Us  <br /> +1 (424) 242-1972</a>
+             
+            </div> 
           </div>
         </div>
       </div>
@@ -798,10 +796,11 @@
                 </div>
               </div>
               <div class="col-lg-6">
-                <div class="info w-100 mt-4">
+                <div class="info w-200 mt-4">
                   <i class="bi bi-phone"></i>
-                  <h4>Call:</h4>
-                  <p>+1 (512) 957-7690</p>
+                  <h5>Call:
+                   <a href="tel:+1 (424) 242-1972"> +1 (424) 242-1972</a> </span> 
+                  </h5>
                 </div>
 
               </div>
@@ -832,7 +831,9 @@
                         Call Professional Consultants
                         You can call our professional consultants anytime, we're available around the clock for you assistance.    
                     </p>
-                    <h3>CALL US : +1 (512) 957-7690</h3>
+                    <h5>Call:
+                   <a href="tel:+1 (424) 242-1972"> +1 (424) 242-1972</a> </span> 
+                   </h5>    
                   </div>
                 </div><!-- End testimonial item -->
 
@@ -849,16 +850,15 @@
                     
 
         
-              <div class="row">
-                <div class="col-md-12 form-group">              
+                <div class="row">
+                <div class="col-md-12 form-group ">              
                     <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
                     <asp:UpdatePanel ID="UpdatePanel1" runat="server">
                     <ContentTemplate>
-                                        
-                    <asp:TextBox ID="nametxt" runat="server" class="form-control"  placeholder="Your Name"></asp:TextBox>
-                    </div>
-                    
-                  <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" Display="Dynamic" ErrorMessage="Please Fill Proper Form" ControlToValidate="nametxt"></asp:RequiredFieldValidator>
+                    <div class="form-group mt-3">                
+                   <asp:TextBox ID="nametxt" runat="server" class="form-control" placeholder="Your Name"></asp:TextBox>
+                 
+                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" Display="Dynamic" ErrorMessage="Please Fill Proper Form" ControlToValidate="nametxt"></asp:RequiredFieldValidator>
                    <br />
                   <div class="col-md-12 form-group mt-3 mt-md-0">
                     <asp:TextBox ID="Emailtxt" runat="server" TextMode="Email" class="form-control" name="email"  placeholder="Your Email"></asp:TextBox>
@@ -894,10 +894,7 @@
 
       
 <!-- End #main -->
-
-
-        
-
+   
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -912,7 +909,7 @@
               Street 9, Glenelg St <br/>
                South Brisbane QLD 410<br />
               Australia <br/><br/>
-              <strong>Phone:</strong> +1 (512) 957-7690<br>
+              <strong>Phone:</strong>  <a href="tel:+1 (424) 242-1972"> +1 (424) 242-1972</a> </span> <br>
               <strong>Email:</strong> info@example.com<br>
             </p>
           </div>
