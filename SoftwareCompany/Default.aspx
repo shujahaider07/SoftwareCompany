@@ -8,9 +8,9 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
  
-  <title>DOT CONNECT</title>
+  <title>Dot Connect-One stop Solution to grow your Business</title>
   <meta content="" name="description" />
   <meta content="" name="keywords" />
   
@@ -29,16 +29,15 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <link href="assets/vendor/venobox/fancybox.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->       
   <link href="assets/css/style.css" rel="stylesheet" />
 
      
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.0/sweetalert.min.js"></script>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.0/sweetalert.min.css"
-       
-     rel="stylesheet" type="text/css" />
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.0/sweetalert.min.css" rel="stylesheet" type="text/css" />
+    <script src="assets/vendor/aos/aos.js"></script>
 
 </head>
 <body id="body">
@@ -56,8 +55,6 @@
         s0.parentNode.insertBefore(s1, s0);
     })();
 </script>
-
-
 <header id="header" class="d-flex align-items-center">
     <div class="container">
       <div class="header-container d-flex align-items-center justify-content-between">
@@ -86,7 +83,7 @@
         <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="assets/img/clients/Swipper/wal-min.jpg" class="d-block  w-100"/>
+          <img src="assets/img/clients/Swipper/dot.jpg" class="d-block  w-100"/>
         </div>
         <div class="swiper-slide">
           <img src="assets/img/clients/Swipper/graphicss-min.jpg" class="d-block  w-100"/>
@@ -116,19 +113,19 @@
 
         <div class="row">
 
-          <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-center">
             <img src="assets/img/clients/web.png" class="img-fluid" alt="" />
           </div>
 
-          <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-center">
             <img src="assets/img/clients/market.png" class="img-fluid" alt="" />
           </div>
 
-          <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-center">
             <img src="assets/img/clients/Video.png" class="img-fluid" alt="" />
           </div>
 
-          <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-center" data-aos="zoom-in" data-aos-delay="400">
+          <div class="col-lg-3 col-md-6 col-6 d-flex align-items-center justify-content-center">
             <img src="assets/img/clients/Graphics.png" class="img-fluid" alt="" />
           </div>
 
@@ -146,10 +143,31 @@
             <h2>OUR MISSION</h2>
             <h3>
              One stop solution to grow your business </h3>
+              <div class="col-sm-12">
+                   <div class="video-box aos-init aos-animate"  data-aos="fade-up" style="position: relative;">
+                   <a href="https://youtu.be/SQUUVlSfbT4" data-fancybox="video">
+                        <div class="btn btn-dark btn-rounded-icon animate-ripple" style="position: absolute;left: calc(50% - 20px);top: calc(50% - 20px);">
+                            <span class="play-btn"></span>
+                        </div>
+                        <img class="img-fluid" src="assets/img/clients/Swipper/intro.png" class="rounded" alt="" />
+                    </a>
+                </div>
+                  <style>
+                      .play-btn{
+                          background: radial-gradient(#68c46b38 50%, #68c46b38 52%);
+                      }
+                          .play-btn:hover::after {
+                              border-left: 15px solid #009970;
+                          }
+                  </style>
+              </div>
+             
+           
+            
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-left" data-aos-delay="200">
             <p>
-              The mission at Dot Connect is simple, we want to provide our customers with the best designing, development and marketing services. We are determined to provide our customers a peace of mind that their brand is in safe and capable hands who will help them grow into a much bigger corporation through immense hard work and dedication. We treat our client’s company as if it was our own and work to get the most reach, publicity and success as possible. Our packages are straightforward and includes every aspect of our services for the most affordable pricing. Our mission to provide the best services in the lowest and most affordable price is the key to our success and why we have more than thousands of satisfied and happy customers who trust us with their brands and allow us to help them grow more and more, and to evolve their organization  to a world-renowned brand through our skilled and hard-working team..
+              The mission at Dot Connect is simple, we want to provide our customers with the best designing, development and marketing services. We are determined to provide our customers a peace of mind that their brand is in safe and capable hands who will help them grow into a much bigger corporation through immense hard work and dedication. We treat our client’s company as if it was our own and work to get the most reach, publicity and success as possible. Our packages are straightforward and includes every aspect of our services for the most affordable pricing. Our mission to provide the best services in the lowest and most affordable price is the key to our success and why we have more than thousands of satisfied and happy customers who trust us with their brands and allow us to help them grow more and more, and to evolve their organization to a world-renowned brand through our skilled and hard-working team. 
             </p>
             <ul>
               <li><i class="ri-check-double-line"></i> Ongoing email support</li>
@@ -270,8 +288,10 @@
             
             </div>
               <div class="section-title" data-aos="fade-right">
-                    <h2>HERE CREATIVITY MEETS TECHNOLOGY</h2>
-                          <p>DOT CONNECT is the Digital Design Company in USA that is fulfilling all your web needs as we are delivering the Best SEO Services, Web Design Services USA, Video Animation Services, interactive advertising, marketing support, and a lot more. We treat your business as our own so whatever services you are looking for, just feel free to reach out to us. Furthermore, we bring life to your creative imaginations with our years of experience in the field by providing an extensive range of Digital Design Services in USA. Our competence is not restricted to logo designing. Here we empower businesses, brands, or organizations to generate lead through both organic and paid marketing strategies.Logo Designing | Wesite Development | Video Animation | Search Engine Optimization | Social Media Marketing
+                    <h2>Are you a new business?</h2>
+                    <p>A website design can initially help small and start-up businesses to establish their brand grow and expand their business globally. In today’s time when everything is digital, people can learn about the services or the products the company has to offer.
+
+Our team assists you, by going through your business need, discussing with you, and then providing you with best quality and affordable website.
                    </p>
 
               </div>
@@ -591,27 +611,20 @@
             <h6 class="card-price text-center">Website<span class="period"></span></h6>
             <hr>
             <ul class="fa-ul">
-                <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>1 to 10+ Page Website Design (On Selection)</strong>
+                <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>1 to 10+ Page Website Design (On Selection)</strong>
               </li>           
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>1 to 6+ Banner Designs (On Selection)</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Sliding Banners (Addon)</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Stock Images (Addon)</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Effects (Addon)</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Animations (Addon)</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Content Management System (WordPress) (Addon)</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Dropdown Menu (Addon)</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Contact Form (Addon)</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Complete Deployment</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Guaranteed Satisfaction</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>FOR MORE CUSTOMIZABILITY, GET our Custom Plan with Full control</strong></li>
-             <%-- <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Unlimited
-                Private Projects</li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Dedicated
-                Phone Support</li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Free Subdomain
-              </li>
-              <li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Monthly Status
-                Reports</li>--%>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>1 to 6+ Banner Designs (On Selection)</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Sliding Banners (Addon)</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Stock Images (Addon)</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Effects (Addon)</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Animations (Addon)</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Content Management System (WordPress) (Addon)</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Dropdown Menu (Addon)</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Contact Form (Addon)</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Complete Deployment</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Guaranteed Satisfaction</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>FOR MORE CUSTOMIZABILITY, GET our Custom Plan with Full control</strong></li>
+            
             </ul>
             <div class="d-grid">
                 
@@ -629,15 +642,15 @@
             <h6 class="card-price text-center">Digital Marketing<span class="period"></span></h6>
             <hr>
             <ul class="fa-ul">
-               <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>From 5 up to 30 Posts per month</strong></li>
-               <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Get Instant Reach and Queries</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Facebook and Instagram Advertising by Posting</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Colorful and Intui tive Designs</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Creative Designs for Banners</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Attractive posts for maximum reach</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Charges will be paid on a monthly basis</strong></li>
+               <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>From 5 up to 30 Posts per month</strong></li>
+               <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Get Instant Reach and Queries</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Facebook and Instagram Advertising by Posting</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Colorful and Intui tive Designs</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Creative Designs for Banners</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Attractive posts for maximum reach</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Charges will be paid on a monthly basis</strong></li>
               
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Facebook and Instagram Promotion Charges are not included in the package. To be paid separately by buyer</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Facebook and Instagram Promotion Charges are not included in the package. To be paid separately by buyer</strong></li>
             
             </ul>
             
@@ -658,11 +671,11 @@
             <hr>
             <ul class="fa-ul">
    
-    <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>From 2 up to 10+ Logo Design Ideas (On Selection)</strong></li> 
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Limited Revisions of Design</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Creative and Attractive Designs</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Stationary Designs (Letterhead, Envelope, Business Card) (Addon)</strong></li>
-              <li><span class="fa-li"><i class="bi bi-check2-circle"></i></span><strong>Fast Delivery Time</strong></li>
+    <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>From 2 up to 10+ Logo Design Ideas (On Selection)</strong></li> 
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Limited Revisions of Design</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Creative and Attractive Designs</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Stationary Designs (Letterhead, Envelope, Business Card) (Addon)</strong></li>
+              <li><span class="fa-li"><i class="ri-check-double-line"></i></span><strong>Fast Delivery Time</strong></li>
             
             
             </ul>
@@ -792,15 +805,15 @@
                 <div class="info">
                   <i class="bi bi-envelope"></i>
                   <h4>Email:</h4>
-                  <p>info@example.com</p>
+                  <p>business@dotconnect.digital</p>
                 </div>
               </div>
               <div class="col-lg-6">
-                <div class="info w-200 mt-4">
+                <div class="info w-250 mt-4">
                   <i class="bi bi-phone"></i>
-                  <h5>Call:
-                   <a href="tel:+1 (424) 242-1972"> +1 (424) 242-1972</a> </span> 
-                  </h5>
+                  <h4>Call:
+                   <a href="tel:+1 (424) 242-1972"> +1 (424) 242-1972</a>
+                  </h4>
                 </div>
 
               </div>
@@ -910,7 +923,7 @@
                South Brisbane QLD 410<br />
               Australia <br/><br/>
               <strong>Phone:</strong>  <a href="tel:+1 (424) 242-1972"> +1 (424) 242-1972</a> </span> <br>
-              <strong>Email:</strong> info@example.com<br>
+              <strong>Email:</strong>business@dotconnect.digital<br>
             </p>
           </div>
 
@@ -962,12 +975,14 @@
   <!-- Vendor JS Files -->
   
   <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
+  
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/venobox/fancybox.min.js"></script>
+
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script> 

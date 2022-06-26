@@ -83,6 +83,15 @@
     onscroll(document, headerScrolled)
   }
 
+    // Initiate the venobox plugin
+    //$(window).on('load', function () {
+    //    $('.venobox').venobox();
+    //});
+
+    //window.addEventListener('load', () => {
+    //    document.getElementbyClass('.venobox').venobox();
+    //}
+
   /**
    * Back to top button
    */
