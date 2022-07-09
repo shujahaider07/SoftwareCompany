@@ -9,42 +9,31 @@ namespace SoftwareCompany.Loginportion
         protected void Page_Load(object sender, EventArgs e)
         {
             usertxt.Focus();
-            
+
 
         }
 
         String cs = ConfigurationManager.ConnectionStrings["dbcs"].ConnectionString;
-        protected void Button1_Click(object sender, EventArgs e)
-        {
 
-            SqlConnection sql = new SqlConnection(cs);
-            sql.Open();
-            String qry = "select * from login where username = @user and password = @pass";
-            SqlCommand cmd = new SqlCommand(qry, sql);
-            cmd.Parameters.AddWithValue("@user", usertxt.Text);
-            cmd.Parameters.AddWithValue("@pass", passwordtxt.Text);
-            SqlDataReader dr = cmd.ExecuteReader();
-            if (dr.HasRows == true)
+   
+        protected void Button2_Click(object sender, EventArgs e)
+        {
+            String name = "shuja";
+            String pass = "123";
+
+            if (usertxt.Text == name && passwordtxt.Text == pass)
             {
                 Session["user"] = usertxt.Text;
-
-                this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('Good job!', 'Login Sucessfully!', 'success');", true);
-
+                Response.Write("Login Sucessfull");
                 Response.Redirect("~/Dashboard.aspx");
-
             }
             else
             {
+                Response.Write("Login Failed");
 
-                this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('', 'Login Failed  !', '');", true);
 
-            
             }
 
-
-
-
-            sql.Close();
 
         }
     }

@@ -16,32 +16,37 @@ namespace SoftwareCompany
         protected void Button1_Click(object sender, EventArgs e)
         {
             if (IsPostBack)
+
             {
 
-                SqlConnection sql = new SqlConnection(cs);
-                sql.Open();
-                String qry = "insert into dottbl values (@namee , @email , @messagee , @subjectt)";
-                SqlCommand cmd = new SqlCommand(qry, sql);
-                cmd.Parameters.AddWithValue("@namee", nametxt.Text);
-                cmd.Parameters.AddWithValue("@email", Emailtxt.Text);
-                cmd.Parameters.AddWithValue("@messagee", Messgaetxt.Text);
-                cmd.Parameters.AddWithValue("@subjectt", subjrcttxt.Text);
-                int a = cmd.ExecuteNonQuery();
-                if (a > 0)
-                {
-                    this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('Good job!', 'Filled Sucessfully!', 'success');", true);
-                    nametxt.Text = "";
-                    Emailtxt.Text = "";
-                    Messgaetxt.Text = "";
-                    subjrcttxt.Text = "";
-                }
-                else
-                {
-                    this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('Oops!', 'Invalid Password!', 'error');", true);
-                }
-                sql.Close();
-            }
-        }
+                
 
+                    SqlConnection sql = new SqlConnection(cs);
+                    sql.Open();
+                    String qry = "insert into ClientInfo values (@namee ,@Email , @subjectt , @messagee)";
+                    SqlCommand cmd = new SqlCommand(qry, sql);
+                    cmd.Parameters.AddWithValue("@namee", nametxt.Text);
+                    cmd.Parameters.AddWithValue("@email", Emailtxt.Text);
+                    cmd.Parameters.AddWithValue("@messagee", Messgaetxt.Text);
+                    cmd.Parameters.AddWithValue("@subjectt", subjrcttxt.Text);
+
+                    int a = cmd.ExecuteNonQuery();
+                    if (a > 0)
+                    {
+                        this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('Good job!', 'Filled Sucessfully!', 'success');", true);
+                        nametxt.Text = "";
+                        Emailtxt.Text = "";
+                        Messgaetxt.Text = "";
+                        subjrcttxt.Text = "";
+                    }
+                    else
+                    {
+                        this.ClientScript.RegisterStartupScript(this.GetType(), "SweetAlert", "swal('Oops!', 'Invalid Password!', 'error');", true);
+                    }
+                    sql.Close();
+                }
+                
+            }
+
+        }
     }
-}

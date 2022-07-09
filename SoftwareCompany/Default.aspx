@@ -20,8 +20,15 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1836794192256851"
+<%-- Google Adsense --%>
+
+ <%-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1836794192256851"
      crossorigin="anonymous"></script>
+    <script async custom-element="amp-auto-ads"
+        src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js">--%>
+<%--</script>--%>
+
+
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
@@ -69,7 +76,9 @@
             <li><a class="nav-link scrollto" href="Default.aspx">Home</a></li>
             <li><a class="nav-link scrollto" href="#services">Services</a></li>
             <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
-            <li><a class="nav-link scrollto" href="#footer">Contact</a></li>
+          <%--  <li><a class="nav-link scrollto" href="NFT.aspx">NFT</a></li>--%>
+            <li><a class="nav-link scrollto" href="Contact">Contact</a></li>
+           
          
           </ul>
           <i class="bi mobile-nav-toggle bi-list text-success"></i>
@@ -140,20 +149,20 @@
       <div class="container">
 
         <div class="row content">
-          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+          <div class="col-lg-6">
             <h2>OUR MISSION</h2>
             <h3>
              One stop solution to grow your business </h3>
               <div class="col-sm-12">
                    <div class="video-box aos-init aos-animate"  data-aos="fade-up" style="position: relative;">
-                   <a href="https://youtu.be/SQUUVlSfbT4" data-fancybox="video">
+                   <a href="https://youtu.be/z5cYWAh5RBw    " data-fancybox="video">
                         <div class="btn btn-dark btn-rounded-icon animate-ripple" style="position: absolute;left: calc(50% - 20px);top: calc(50% - 20px);">
                             <span class="play-btn"></span>
                         </div>
                         <img class="img-fluid" src="assets/img/clients/Swipper/intro.png" class="rounded" alt="" />
                     </a>
                 </div>
-                  <style>
+                      <style>
                       .play-btn{
                           background: radial-gradient(#68c46b38 50%, #68c46b38 52%);
                       }
@@ -796,7 +805,8 @@ Our team assists you, by going through your business need, discussing with you, 
 
           <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
             <%--<iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>--%>
-            <div class="info mt-4">
+            <div class="mapouter"><div class="gmap_canvas"><iframe width="673" height="270" id="gmap_canvas" src="https://maps.google.com/maps?q=Glenelg%20St,%20South%20Brisbane%20QLD%204101,%20Australia&t=&z=9&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.online-timer.net"></a><br><style>.mapouter{position:relative;text-align:right;height:270px;width:673px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:270px;width:673px;}</style></div></div>
+              <div class="info mt-4">
               <i class="bi bi-geo-alt"></i>
               <h4>Location:</h4>
               <p>Street 9, Glenelg St, South Brisbane QLD 4101, Australia</p>
@@ -872,7 +882,7 @@ Our team assists you, by going through your business need, discussing with you, 
                     <div class="form-group mt-3">                
                    <asp:TextBox ID="nametxt" runat="server" class="form-control" placeholder="Your Name"></asp:TextBox>
                  
-                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" Display="Dynamic" ErrorMessage="Please Fill Proper Form" ControlToValidate="nametxt"></asp:RequiredFieldValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" Display="Dynamic" ErrorMessage="Please Fill Proper Form" ControlToValidate="nametxt"></asp:RequiredFieldValidator>
                    <br />
                   <div class="col-md-12 form-group mt-3 mt-md-0">
                     <asp:TextBox ID="Emailtxt" runat="server" TextMode="Email" class="form-control" name="email"  placeholder="Your Email"></asp:TextBox>
@@ -970,7 +980,7 @@ Our team assists you, by going through your business need, discussing with you, 
       </div>
     </div>
   </footer><!-- End Footer -->
-
+        
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
@@ -1009,4 +1019,7 @@ Our team assists you, by going through your business need, discussing with you, 
      });
  </script>
 </body>
+    <amp-auto-ads type="adsense"
+        data-ad-client="ca-pub-1836794192256851">
+</amp-auto-ads>
 </html>

@@ -11,7 +11,7 @@ namespace SoftwareCompany
 
         protected void Page_Load(object sender, EventArgs e)
         {
-            //bindGridView();
+            bindGridView();
             if (Session["user"] != null)
             {
 
@@ -21,6 +21,7 @@ namespace SoftwareCompany
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+
             if (Session["user"] != null)
             {
 
@@ -36,18 +37,29 @@ namespace SoftwareCompany
 
             SqlConnection sql = new SqlConnection(cs);
             sql.Open();
-            String qry = "select * from dottbl";
+            String qry = "Select * from ClientInfo";
             SqlDataAdapter da = new SqlDataAdapter(qry, sql);
             DataTable dt = new DataTable();
-
             da.Fill(dt);
             GridView1.DataSource = dt;
-            
+            GridView1.DataBind();
+
+
+
 
             sql.Close();
 
 
         }
 
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+            if (Session["user"] != null )
+            {
+                Session["user"] = null;
+                Response.Redirect("Default.aspx");
+
+            }
+        }
     }
 }

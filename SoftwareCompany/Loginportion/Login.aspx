@@ -53,15 +53,14 @@
 					<div class="wrap-input100 validate-input m-b-26" data-validate="Username is required">
 						<span class="label-input100">Username</span>
 						<br />
-						<%--<input class="input100" type="text" name="username" placeholder="Enter username">--%>
-						<asp:TextBox ID="usertxt" runat="server" placeholder="Enter username"></asp:TextBox>
+											<asp:TextBox ID="usertxt" runat="server" placeholder="Enter username"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator1" Display="Dynamic" runat="server" ErrorMessage="Enter username" ControlToValidate="usertxt"></asp:RequiredFieldValidator>
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input m-b-18" data-validate = "Password is required">
 						<span class="label-input100">Password</span>
-						<%--<input class="input100" type="password" name="pass" placeholder="Enter password">--%>
+					
 						<asp:TextBox ID="passwordtxt" placeholder="Enter password" TextMode="Password" runat="server"></asp:TextBox>
 						<asp:RequiredFieldValidator ID="RequiredFieldValidator2" Display="Dynamic" runat="server" ErrorMessage="Enter Password" ControlToValidate="passwordtxt"></asp:RequiredFieldValidator>
 						<span class="focus-input100"></span>
@@ -69,11 +68,10 @@
 
 					
 					<div class="container-login100-form-btn">
-						<%--<button class="login100-form-btn">
-							Login
-						</button>--%>
-						<asp:Button ID="Button1" class="login100-form-btn" runat="server" Text="Login" OnClick="Button1_Click" />
-					</div>
+						
+						<%--<asp:Button ID="Button1" class="login100-form-btn" runat="server" Text="Login" OnClick="Button1_Click" />--%>
+						<asp:Button ID="Button2" runat="server" class="login100-form-btn"  Text="Button" OnClick="Button2_Click" />
+						</div>
 				</form>
 			</div>
 		</div>

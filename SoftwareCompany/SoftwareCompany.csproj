@@ -74,10 +74,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\DotConnectDatabase.mdf" />
-    <Content Include="App_Data\DotConnectDatabase_log.ldf">
-      <DependentUpon>DotConnectDatabase.mdf</DependentUpon>
-    </Content>
     <Content Include="Dashboard.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="Loginportion\css\main.css" />
@@ -124,6 +120,7 @@
     <Content Include="Loginportion\vendor\select2\select2.js" />
     <Content Include="Loginportion\vendor\select2\select2.min.css" />
     <Content Include="Loginportion\vendor\select2\select2.min.js" />
+    <Content Include="NFT.aspx" />
     <Content Include="Portfolio.aspx" />
     <Content Include="portfolioDetails.aspx" />
     <Content Include="Web.config" />
@@ -149,6 +146,13 @@
     </Compile>
     <Compile Include="Loginportion\Login.aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NFT.aspx.cs">
+      <DependentUpon>NFT.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NFT.aspx.designer.cs">
+      <DependentUpon>NFT.aspx</DependentUpon>
     </Compile>
     <Compile Include="Portfolio.aspx.cs">
       <DependentUpon>Portfolio.aspx</DependentUpon>
